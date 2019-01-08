@@ -1,0 +1,67 @@
+.search{
+  height: 85rpx;
+  line-height: 85rpx;
+  background: #fff;
+  padding:0 30rpx;
+  padding-top: 18rpx;
+  margin-bottom: 20rpx;
+}
+.search view{
+  height: 62rpx;
+  line-height: 62rpx;
+  text-align: center;
+  background: #F4F4F4;
+  color: #B7BCC8;
+  border-radius: 31rpx;
+}
+.search view icon{
+  margin-right: 12rpx;
+}
+.liecon{background: #fff;padding-bottom: 100rpx;}
+
+.zhright{
+  font-size: 24rpx;
+  color: #8A8F9B;
+}
+.money_list{
+  font-size: 28rpx;
+  color: #FFA826;
+  font-weight: bold;
+  margin-top: 40rpx;
+}
+.zhright text{
+  font-size: 20rpx;
+  color: #fff;
+  float: right;
+  background: #FFA826;
+  width: 111rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  border-radius: 5rpx;
+  text-align: center;
+}
+.zhright .join{
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #8A8F9B;
+
+}
+.liecon .con_dl:last-child{
+  border: 0;
+}
+.buycar{
+  width:79rpx;
+  height: 79rpx;
+  position: fixed;
+  right: 30rpx;
+  bottom: 90rpx;
+  background: #FFA826;
+  border-radius: 50%;
+  text-align: center;
+}
+.buycar image{
+  width:41rpx;
+  height: 37rpx;
+  margin-top: 20rpx;
+}
+.lingqu_btn{width: 100%;text-align: center;position: fixed;bottom: 0;height: 83rpx;line-height: 83rpx;background:linear-gradient(0deg,#FFA826,#FDA823);color: #fff;font-size: 32rpx;font-weight: bold}

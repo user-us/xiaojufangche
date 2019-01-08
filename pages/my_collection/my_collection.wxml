@@ -1,0 +1,228 @@
+<view class='sw_box'>
+<view class="swiper-tab" bindtap='tabFun'>
+  <block wx:for="{{tabs}}" wx:key="id">
+  <view class="swiper-tab-list {{tabArr.curHdIndex==item.id? 'on' : ''}}"  data-id="{{item.id}}">
+    <text bindtap='tabFun' data-id="{{item.id}}">{{item.value}}</text>
+  </view>
+  </block>
+</view>
+</view>
+<view class="tab-right"> 
+  <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tit'>2018款 格林卡诺 C2款</view>
+          <view class='fucar'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+          <view class='car_mon'><text>￥1800/日均</text><text>出租1324次</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tit'>2018款 格林卡诺 C2款</view>
+          <view class='fucar'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+          <view class='car_mon'><text>￥1800/日均</text><text>出租1324次</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tit'>2018款 格林卡诺 C2款</view>
+          <view class='fucar'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+          <view class='car_mon'><text>￥1800/日均</text><text>出租1324次</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tit'>2018款 格林卡诺 C2款</view>
+          <view class='fucar'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+          <view class='car_mon'><text>￥1800/日均</text><text>出租1324次</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+
+
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>广西梧州市自驾车旅游营地</view>
+          <view class='di_addres'><image src='{{picurl}}/images/dizhi.png'></image>北京</view> 
+          <view class='di_go'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>广西梧州市自驾车旅游营地</view>
+          <view class='di_addres'><image src='{{picurl}}/images/dizhi.png'></image>北京</view> 
+          <view class='di_go'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>广西梧州市自驾车旅游营地</view>
+          <view class='di_addres'><image src='{{picurl}}/images/dizhi.png'></image>北京</view> 
+          <view class='di_go'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>广西梧州市自驾车旅游营地</view>
+          <view class='di_addres'><image src='{{picurl}}/images/dizhi.png'></image>北京</view> 
+          <view class='di_go'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>西宁+青海湖+拉萨+日喀则+ 羊卓雍措+纳木措8日7晚</view>
+          <view class='car_mons motop'><text>￥5800/日均</text></view>
+          <view class='di_go motops'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>西宁+青海湖+拉萨+日喀则+ 羊卓雍措+纳木措8日7晚</view>
+          <view class='car_mons motop'><text>￥5800/日均</text></view>
+          <view class='di_go motops'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>西宁+青海湖+拉萨+日喀则+ 羊卓雍措+纳木措8日7晚</view>
+          <view class='car_mons motop'><text>￥5800/日均</text></view>
+          <view class='di_go motops'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='di_tit'>西宁+青海湖+拉萨+日喀则+ 羊卓雍措+纳木措8日7晚</view>
+          <view class='car_mons motop'><text>￥5800/日均</text></view>
+          <view class='di_go motops'>1580人去过
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tits'>帐篷户外3-4人全自动加厚防 雨野营露营帐篷</view>
+          <view class='car_mon'><text>￥166</text><text>187人付款</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tits'>帐篷户外3-4人全自动加厚防 雨野营露营帐篷</view>
+          <view class='car_mon'><text>￥166</text><text>187人付款</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tits'>帐篷户外3-4人全自动加厚防 雨野营露营帐篷</view>
+          <view class='car_mon'><text>￥166</text><text>187人付款</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+    <view class='car_shou'>
+      <view class='car_shoudl'>
+        <view class='car_shoudt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='car_shoudd'>
+          <view class='car_tits'>帐篷户外3-4人全自动加厚防 雨野营露营帐篷</view>
+          <view class='car_mon'><text>￥166</text><text>187人付款</text></view>
+        </view>
+      </view>
+      <view class='car_coll'><text>已收藏</text><text>取消收藏</text></view>
+    </view>
+
+  </view>
+</view>

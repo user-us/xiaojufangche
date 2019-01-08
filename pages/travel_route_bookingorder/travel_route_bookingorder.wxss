@@ -1,0 +1,304 @@
+page{
+  background: #fff;
+}
+.book_dl{
+  padding: 35rpx 26rpx;
+  overflow: hidden;
+}
+.book_dt{
+  width:234rpx;
+  height: 142rpx;
+  margin-right: 30rpx;
+  float: left;
+}
+.book_dt image{
+  width:234rpx;
+  height: 142rpx;
+  border-radius: 10rpx;
+}
+.book_dd{
+  float: left;
+  width: 430rpx;
+}
+.book_tit{
+  font-size: 30rpx;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.book_mon{
+  font-size: 28rpx;
+  color: #FFA826;
+  margin-top: 27rpx;
+  font-weight: bold;
+}
+.book_con{
+  margin: 0 74rpx;
+}
+.go_times{
+  line-height: 110rpx;
+  height: 110rpx;
+  font-size: 24rpx;
+  color: #858994;
+}
+.cho_time{
+  font-size: 30rpx;
+  line-height: 30rpx;
+  font-weight: bold;
+
+}
+.cho_time image{
+  width:12rpx;
+  height: 22rpx;
+  float: right;
+}
+.cho_ling{
+  font-size: 30rpx;
+  margin-top: 45rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 1px solid #DDDDDD;
+}
+.cho_ling checkbox{float:right;}
+.cho_ling checkbox .wx-checkbox-input{
+border-radius: 50%;
+height:34rpx;
+width: 34rpx;
+margin-top: -4rpx;
+margin-right: 0;
+/* 自定义样式.... */
+}
+.cho_ling checkbox .wx-checkbox-input{
+   border-radius: 20rpx;/* 圆角 */
+   width: 34rpx; /* 背景的宽 */
+   height: 34rpx; /* 背景的高 */
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+.cho_ling checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   background: #FFA826;
+   border:1px solid #FFA826;
+   border-radius: 50%;
+}
+.cho_ling checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  border-radius: 50%;
+}
+.book_right{
+  width:12rpx;
+  height: 22rpx;
+  float: right;
+  margin-top: 48rpx;
+}
+.tutit{
+  font-size: 32rpx;
+  color: #101010;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+.tuadd{
+  font-size: 24rpx;
+  color: #8A8F9B;
+  margin-top: 12rpx;
+}
+.tuadd image{
+  width:16rpx;
+  height: 20rpx;
+  margin-right: 9rpx;
+}
+.tupay{
+  margin-top: 17rpx;
+}
+.tupay text:first-child{
+  color: #FFA826;
+  font-size: 28rpx;
+}
+.tupay text:last-child{
+  color: #8A8F9B;
+  font-size: 24rpx;
+  float: right;
+}
+.addfu{
+  line-height: 127rpx;
+  height: 127rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #FFA826;
+  border-bottom: 1px solid #EFEFEF;
+  padding-bottom: 0;
+  margin-bottom: 45rpx;
+}
+.addfu image{
+  width:28rpx;
+  height: 28rpx;
+  margin-right: 17rpx;
+}
+.play_xiangmu{
+  margin-top: 20rpx;
+  line-height: 121rpx;
+  height: 121rpx;
+  color: #858994;
+  border-top: 1px solid #EFEFEF;
+}
+.play_xiangmu image{
+  width: 12rpx;
+  height: 22rpx;
+  float: right;
+  margin-top: 48rpx;
+}
+.car_dls{
+  overflow: hidden;
+  padding-bottom: 50rpx;
+  border-bottom: 1px solid #DDDDDD;
+}
+.car_dts{
+  width: 207rpx;
+  height: 123rpx;
+  margin-right: 27rpx;
+  float: left;
+}
+.car_dts image{
+  width:207rpx;
+  height: 123rpx;
+} 
+.car_dds{
+  float: left;
+  width: 360rpx;
+}
+.car_dtit{
+  font-size: 30rpx;
+}
+.car_dmon{
+  font-size: 28rpx;
+  color: #FFA826;
+  height: 52rpx;
+  line-height: 52rpx;
+}
+.car_numb{
+  font-size: 24rpx;
+  color: #8A8F9B;
+}
+.book_outdoor{
+  line-height: 60rpx;
+  height:60rpx;
+}
+.book_additional .addfu{
+  margin-bottom: 0;
+}
+.yizi{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.yizimon{
+  font-size: 24rpx;
+  color: #878787;
+}
+.stepper {
+	width: 208rpx;
+	height: 60rpx;
+	/*给主容器设一个边框*/
+	border: 1px solid #E6E6E6;
+	border-radius: 10rpx;
+	margin:0 auto;
+  margin-right: 0;
+  float: right;
+}
+/*加号和减号*/
+.stepper text {
+	width: 58rpx;
+	line-height: 60rpx;
+	text-align: center;
+	float: left;
+}
+ 
+/*数值*/
+.stepper input {
+	width: 88rpx;
+	height: 60rpx;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30rpx;
+	/*给中间的input设置左右边框即可*/
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+}
+ 
+/*普通样式*/
+.stepper .normal{
+	color: black;
+}
+.insurance{
+  line-height: 30rpx;
+  margin-bottom: 50rpx;
+}
+.insurance image{
+  margin-top: 0;
+}
+.booking_all{
+  padding-top: 0;
+}
+.book_allvi{
+  line-height: 60rpx;
+}
+.book_allvi text:first-child{
+  font-size: 24rpx;
+  color: #333;
+}
+.book_allvi text:last-child{
+  font-size: 26rpx;
+  color: #333;
+  float: right;
+}
+.booking_all .book_allvi:last-child text:last-child{
+  color: #FFA826;
+}
+.book_pay{
+  width:606rpx;
+  height: 83rpx;
+  line-height: 83rpx;
+  text-align: center;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+  margin-bottom: 38rpx;
+  margin-top: 20rpx;
+}
+.jujue_tc{position: fixed;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.3);z-index: 99}
+.jujue_cont{width: 560rpx;background: #fff;margin: 0 auto; padding-bottom:136rpx; border-radius: 20rpx;margin-top: 45%;text-align: center;position: relative;}
+.jujue_title{font-size: 36rpx;display:block;height: 60rpx;line-height: 60rpx;padding-top: 50rpx; color: #333333;margin-bottom: 20rpx;}
+.jujues{ font-size: 30rpx; color: #333333; line-height: 50rpx;}
+.btn_jujue{position: absolute;bottom: 0;display: flex;flex-direction: row;width: 100%;height:86rpx;line-height: 86rpx;border-top: 1px solid #E6E6E6; }
+.btn_jujue text{width: 50%;line-height: 86rpx;font-size: 30rpx;}
+.success{color: #fff; background: #FFA826; border-bottom-right-radius: 20rpx;}
+.disno{
+  display: none;
+}
+.call_vie{
+  line-height: 80rpx;
+  padding: 0 46rpx;
+  font-size: 30rpx;
+  text-align: right;
+}
+.call_vie .ch_left{
+  float: left;
+}
+.is_checked {
+   color:#FFA826;
+}
+checkbox .wx-checkbox-input{
+   border-radius: 4rpx;/* 圆角 */
+   width: 27rpx; /* 背景的宽 */
+   height: 27rpx; /* 背景的高 */
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   background: #FFA826;
+   border:1px solid #FFA826;
+   border-radius: 4rpx;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  border-radius: 4rpx;
+   font-size: 30rpx;
+}

@@ -1,0 +1,29 @@
+/* pages/huodong_xq/huodong_xq.wxss */
+.top_one{background: #fff;margin-bottom: 20rpx;}
+.top_one image{width: 100%;height: 409rpx;}
+.top_one .small_icon{width: 16rpx;height: 20rpx;margin-right: 5rpx;}
+.huo_address{float: right;font-size: 24rpx;color: #8A8F9B}
+.huo_info{margin:10rpx 30rpx;font-size: 32rpx;color:#101010;font-weight: bold }
+.look_num{font-size: 24rpx;color: #8A8F9B;margin: 10rpx 30rpx;overflow: hidden;border-bottom: 1px solid #EFEFEF;padding-bottom: 30rpx;}
+.look_num text{float: right}
+.huodong_juti{overflow: hidden;padding: 30rpx;}
+.huodong_list{float: left;width: 50%;color: #FFA826;font-size: 24rpx;margin-bottom: 15rpx;}
+.huodong_list image{width: 24rpx;height: 24rpx;vertical-align: middle;margin-right: 5rpx;margin-bottom: 3rpx}
+.center_xq{background: #fff;padding: 30rpx;font-size: 26rpx;line-height: 40rpx;margin-bottom: 20rpx;}
+.center_xq image{max-width: 100%;margin: 30rpx auto}
+.pl_box{background: #fff;padding:0 30rpx;padding-bottom:95rpx;}
+.pl_box1{display: flex;flex-direction: row;margin-top: 10rpx;}
+.pl_tit{height:78rpx;line-height: 78rpx;border-bottom: 1px solid #E5E5E5;font-size: 30rpx;color:#101010; }
+.pl_left image{width:72rpx;height: 72rpx;border-radius: 50%; }
+.pl_right{margin-left: 20rpx;width: 605rpx;}
+.pl_name{font-size:24rpx;color: #FFA826; }
+.pl_name text{color:#333; }
+.pl_time{color: #8A8F9B;font-size: 20rpx;margin: 10rpx 0}
+.pl_cont{font-size:28rpx;border-bottom: 1px solid #E5E5E5;padding-bottom:20rpx }
+.write_pl{width: 683rpx;height: 68rpx;background: #F3F4F8;border-radius: 34rpx;margin-top: 30rpx;display: flex}
+.write_pl input{width: 80%;padding-left: 30rpx;line-height: 68rpx;height: 68rpx;}
+.write_pl text{display: inline-block;line-height: 68rpx;color: #FFA826}
+.lingqu_btn{width: 100%;text-align: center;position: fixed;bottom: 0;height: 83rpx;line-height: 83rpx;background:linear-gradient(0deg,#FFA826,#FDA823);color: #fff;font-size: 32rpx;font-weight: bold}
+.lingqu_btn1{background: #C4C4C4}
+
+

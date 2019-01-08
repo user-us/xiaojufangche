@@ -1,0 +1,49 @@
+.search{
+  height: 85rpx;
+  line-height: 85rpx;
+  background: #fff;
+  padding:0 30rpx;
+  padding-top: 18rpx;
+  margin-bottom: 20rpx;
+}
+.search view{
+  height: 62rpx;
+  line-height: 62rpx;
+  text-align: center;
+  background: #F4F4F4;
+  color: #B7BCC8;
+  border-radius: 31rpx;
+}
+.search view icon{
+  margin-right: 12rpx;
+}
+.liecon{background: #fff;}
+
+.zhright{
+  font-size: 28rpx;
+  color: #FFA826;
+  margin-top: 55rpx;
+}
+.zhright text{
+  font-size: 24rpx;
+  color: #8A8F9B;
+  float: right;
+}
+.liecon .con_dl:last-child{
+  border: 0;
+}
+.buycar{
+  width:79rpx;
+  height: 79rpx;
+  position: fixed;
+  right: 30rpx;
+  bottom: 90rpx;
+  background: #FFA826;
+  border-radius: 50%;
+  text-align: center;
+}
+.buycar image{
+  width:41rpx;
+  height: 37rpx;
+  margin-top: 20rpx;
+}

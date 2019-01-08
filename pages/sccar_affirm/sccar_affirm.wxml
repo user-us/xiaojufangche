@@ -1,0 +1,32 @@
+<view class='address'>
+  <image src='{{picurl}}/images/xqright.png'></image>
+  <view class='adds'>
+    <text>收货人：张三三      18310008003</text>
+    <text>北京北京市丰台区宋家庄北京北京市丰台区宋家</text>
+  </view>
+</view>
+<view class='affcon'>
+  <view class='con_dl'>
+    <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+      <view class='zhright'>166积分
+        <view class="stepper">
+            <!-- 减号 -->
+            <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+            <!-- 数值 -->
+            <input type="number" bindchange="bindManual" value="{{num}}" />
+            <!-- 加号 -->
+            <text class="normal" bindtap="bindPlus">+</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='peiway'><text>配送方式</text><text>快递  免邮</text></view>
+  <view class='peiway'><text>支付方式</text><text>微信支付</text></view>
+
+</view>
+<view class='peidiscount'>
+  <view class='peiway'><text>优惠券</text><image src='{{picurl}}/images/xqright.png'></image><text>满100减10元</text></view>
+</view>
+<view class='aff_foot'><text>合计：</text><text class='co2'>￥166</text><text>提交订单</text></view>

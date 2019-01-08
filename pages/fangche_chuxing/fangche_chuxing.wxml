@@ -1,0 +1,22 @@
+<!--pages/fangche_chuxing/fangche_chuxing.wxml-->
+<view class='chuxing_time'>
+  <view class='time_top' style='background:url("{{picurl}}/images/time_bg.png") no-repeat;background-size:100%;'>
+    <image src='{{picurl}}/images/time1.png' class='top_img'></image>
+  </view>
+  <view class='time_cont'>
+    <view class='qu_didian'>取车地点</view>
+    <view class='di_con'>天津市某某汽车运营商</view>
+    <view class='qu_didian'>还车地点</view>
+    <view class='di_con'>上海市某某汽车运营商</view>
+    <view class='qu_didian qu_dizhi2' bindtap='gorili'><text>取车时间</text><text>周日</text><text>还车时间</text><text>周五</text></view>
+    <view class='qu_dizhi2 qu_dizhi3' bindtap='gorili'><text>10月28日</text><text>15:00</text><text>10月28日</text><text>15:00</text></view>
+  </view>
+  <view class='wancheng' bindtap='tishi'>下一步</view>
+</view>
+
+<view wx:if="{{tishi == true}}" class='yajin_tishi'>
+  <view class='tishi_Cont'>
+    <view class='tishi_neirong'><text>您当前还未通过驾驶认证，\n请认证通过后再进行下单!</text></view>
+    <view class='tishi_btn' bindtap='closetishi'>知道了</view>
+  </view>
+</view>

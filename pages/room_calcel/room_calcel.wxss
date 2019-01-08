@@ -1,0 +1,69 @@
+.call_con{
+  height: 100%;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.call_res{
+  margin: 0;
+  color: #8A8F9B;
+  padding: 0 26rpx;
+  background: #EEEFF1;
+  font-size: 28rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+}
+.call_vie{
+  line-height: 86rpx;
+  height: 86rpx;
+  margin: 0 47rpx;
+  color: #333333;
+  border-bottom: 1px solid #EFEFEF;
+  font-size: 28rpx;
+}
+.call_vie:last-child{
+  border: 0;
+}
+.call_con view checkbox{
+   margin-right: 20rpx;
+}
+checkbox .wx-checkbox-input{
+border-radius: 50%;
+height:36rpx;
+width: 36rpx;
+margin-top: -4rpx;
+/* 自定义样式.... */
+}
+/* checkbox选中时样式 */
+checkbox .wx-checkbox-input{
+   border-radius: 20rpx;/* 圆角 */
+   width: 34rpx; /* 背景的宽 */
+   height: 34rpx; /* 背景的高 */
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   background: #FFA826;
+   border:1px solid #FFA826;
+   border-radius: 50%;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  border-radius: 50%;
+  font-size: 36rpx;
+}
+.is_checked {
+   color:#FFA826;
+}
+.resra{
+  background: #fff;
+}
+.resra{
+  padding: 40rpx 48rpx;
+}
+button{
+  width: 606rpx;
+  height: 83rpx;
+  line-height: 83rpx;
+  color: #fff;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  margin-top: 66rpx;
+  font-size: 32rpx;
+}

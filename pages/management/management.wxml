@@ -1,0 +1,40 @@
+<!--pages/management/management.wxml-->
+<view class='address_cont'>
+  <view class='address_list'>
+    <view class='address_box'>
+      <text>张三三</text>
+      <text>18310008003</text>
+    </view>
+    <view class='address1'>北京北京市丰台区北京市丰台区1101室</view>
+  </view>
+  <view class='upda_address'>
+    <radio-group class="radio-group" bindchange="radioChange" >
+      <label class="radio" wx:for="{{items}}" >
+        <radio value="{{item.name}}" checked="{{item.checked}}" color="#FFA826" />默认地址
+      </label>
+    </radio-group>
+    <view class='bianji'>
+      <view bindtap='updaadd'><image src='{{picurl}}/images/edit.png'></image> 编辑</view>
+      <view><image src='{{picurl}}/images/del.png'></image> 删除</view>
+    </view>
+  </view>
+</view>
+<view class='address_cont'>
+  <view class='address_list'>
+    <view class='address_box'>
+      <text>张三三</text>
+      <text>18310008003</text>
+    </view>
+    <view class='address1'>北京北京市丰台区北京市丰台区1101室</view>
+  </view>
+  <view class='upda_address'>
+    <radio-group class="radio-group" bindchange="radioChange" >
+      <label class="radio" wx:for="{{items}}" >
+        <radio value="{{item.name}}" checked="{{item.checked}}" color="#FFA826" />默认地址
+      </label>
+    </radio-group>
+    <view class='bianji'><image src='{{picurl}}/images/edit.png'></image> 编辑<image src='{{picurl}}/images/del.png'></image> 删除</view>
+  </view>
+</view>
+<navigator url='/pages/add_address/add_address' class='add_address' >添加新地址</navigator>
+ 

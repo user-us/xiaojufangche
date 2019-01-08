@@ -1,0 +1,37 @@
+@import '/pages/travel_route/travel_route';
+.yesru{
+  width: 111rpx;
+  height: 34rpx;
+  background: #FFA826;
+  text-align: center;
+  font-size: 20rpx;
+  color: #fff;
+  border-radius: 5rpx;
+  float: right;
+}
+.add_down{
+  padding: 20rpx 26rpx;
+  background: #fff;
+}
+.down_con{
+  line-height: 26rpx;
+  font-size: 26rpx;
+  padding: 20rpx 0;
+}
+.down_con image{
+  width:28rpx;
+  height: 20rpx;
+  float: right;
+}
+.choose_status_active{
+  color: #FFA826;
+}
+.dibock{
+  display: block;
+}
+.disno{
+  display: none;
+}
+.showrots{
+  transform: rotate(180deg);
+}

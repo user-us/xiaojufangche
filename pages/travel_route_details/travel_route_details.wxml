@@ -1,0 +1,173 @@
+<view class='boxs'>
+  <!--顶部轮播图  -->
+  <swiper autoplay="true" interval='2000' bindchange='handerChange'>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner2.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+  </swiper>
+  <view class='item-num'>{{index}}/3</view>
+  <view class='add_star'>
+    <image catchtap='changeImg' wx:if="{{chimg == false}}" src='{{picurl}}/images/tar_collection.png'></image>
+    <image catchtap='changeImg' wx:if="{{chimg == true}}" src='{{picurl}}/images/shouc1.png'></image>
+  </view>
+</view>
+<view class='de_tit'>
+  <view class='de_ts'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+  <view class='de_mon'>￥5800/日均</view>
+  <view class='de_goon'>
+    1500人去过
+    <image src='{{picurl}}/images/star1.png'></image>
+    <image src='{{picurl}}/images/star1.png'></image>
+    <image src='{{picurl}}/images/star1.png'></image>
+  </view>
+</view>
+<view class='sw_box'>
+<view class="swiper-tab" bindtap='tabFun'>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='0'? 'on' : ''}}" id="tab-hd01" data-id="0"><text bindtap='tabFun' data-id="0">产品特色</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='1'? 'on' : ''}}" id="tab-hd02" data-id="1"><text bindtap='tabFun' data-id="1">途径营地</text></view>
+   <view class="swiper-tab-list {{tabArr.curHdIndex=='2'? 'on' : ''}}" id="tab-hd03" data-id="2"><text bindtap='tabFun'data-id="2">游玩项目</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='3'? 'on' : ''}}" id="tab-hd03" data-id="3"><text bindtap='tabFun'data-id="3">适用车辆</text></view>
+</view>
+</view>
+<view class="tab-right"> 
+  <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+    <view class='features'>
+      <view class='reason'>推荐理由</view>
+      <view class='fea_con'>
+        <text>★ 【用心服务】：无购物无自费，全程甄选经验十足藏地老司机和自营好评导游 ★</text>
+        <text>★ 【精心设计】：往返飞机，景点游玩更充分，西宁火车进藏,震撼体验青藏全景</text>
+        <text>★ 【美景解锁】：西宁双湖+圣城拉萨+r日喀则悠久寺庙扎什伦布寺;</text>
+      </view>
+      <view class='img'>
+        <image src='{{picurl}}/images/details1.png' style='width:100%; height:206rpx;'></image>
+        <image src='{{picurl}}/images/details2.png' style='width:100%; height:1888rpx;'></image>
+      </view>
+      <view class='fea_evaluation'>
+        <view class='eva_tit'><text>评价</text><image src='{{picurl}}/images/scxqright.png'></image><text>查看全部</text></view>
+        <view class='stars'>
+          <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+          <view class='stright'>
+            <view class='zhshan'>
+              <text>张一山</text> 
+              <view class='xstar'>
+                <image src='{{picurl}}/images/star1.png'></image>
+                <image src='{{picurl}}/images/star1.png'></image>
+                <image src='{{picurl}}/images/star1.png'></image>
+              </view>
+            </view>
+            <view class='zhtime'>2015-10-18 02:16</view>
+            <view class='stcon'>这个房车在哪里预订？</view>
+          </view>
+        </view>
+        <view class='stars'>
+          <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+          <view class='stright'>
+            <view class='zhshan'>
+              <text>张一山</text> 
+              <view class='xstar'>
+                <image src='{{picurl}}/images/star1.png'></image>
+                <image src='{{picurl}}/images/star1.png'></image>
+                <image src='{{picurl}}/images/star1.png'></image>
+              </view>
+            </view>
+            <view class='zhtime'>2015-10-18 02:16</view>
+            <view class='stcon'>这个房车在哪里预订？</view>
+          </view>
+        </view>
+        
+
+      </view>
+    </view>
+    <view class='booking' bindtap='play_add'>立即预定</view>
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+     <view class='tra_way'>
+      <view class='zhan_con'>
+        <view class='tutit'>广西梧州市自驾车旅游营地</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+      <view class='zhan_con'>
+        <view class='tutit'>广西梧州市自驾车旅游营地</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+      <view class='zhan_con'>
+        <view class='tutit'>广西梧州市自驾车旅游营地</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+      <view class='zhan_con'>
+        <view class='tutit'>广西梧州市自驾车旅游营地</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+    </view>
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+    <view class='tra_way'>
+      <view class='zhan_con'>
+        <view class='tutit'>坐天津之眼看城市夜景</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+      <view class='zhan_con'>
+        <view class='tutit'>广西梧州市自驾车旅游营地</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+      <view class='zhan_con'>
+        <view class='tutit'>广东双长隆畅玩趣无穷</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+      <view class='zhan_con'>
+        <view class='tutit'>广西梧州市自驾车旅游营地</view>
+        <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+        <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      </view>
+    </view>
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">
+    <view class='car_dls'>
+      <view class='travel_dl'>
+        <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='travel_dd'>
+          <view class='tradd_tit'>2018款 格林卡诺 C2款</view>
+          <view class='tradd_mon'>￥1800/日均</view>
+          <view class='tradd_go'>出租1324次</view>
+        </view>
+      </view>
+      <view class='travel_dl'>
+        <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='travel_dd'>
+          <view class='tradd_tit'>2018款 格林卡诺 C2款</view>
+          <view class='tradd_mon'>￥1800/日均</view>
+          <view class='tradd_go'>出租1324次<text class='tests'>已选择</text></view>
+        </view>
+      </view>
+      <view class='travel_dl'>
+        <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='travel_dd'>
+          <view class='tradd_tit'>2018款 格林卡诺 C2款</view>
+          <view class='tradd_mon'>￥1800/日均</view>
+          <view class='tradd_go'>出租1324次</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='{{show?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>您当前还未选择适用车辆， 请选择后再进行下单！</text>
+    <view class='btn_jujue'>
+      <text class='success' bindtap='close'>知道了</text>
+    </view>
+  </view>
+</view>

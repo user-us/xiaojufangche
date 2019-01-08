@@ -1,0 +1,108 @@
+@import "/pages/jfsc_shangpinxiangqing/jfsc_shangpinxiangqing";
+.scevaluate{
+  padding: 0 26rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.scev1{
+  line-height: 76rpx;
+  height: 76rpx;
+  border-bottom: 1rpx solid #E6E6E6;
+}
+.scev1 image{
+  width: 14rpx;
+  height: 27rpx;
+  margin-left: 30rpx;
+}
+.scp1{
+  font-size: 30rpx;
+  color: #101010;
+}
+.scp2{
+  float: right;
+  font-size: 26rpx;
+  color: #FFA826;
+}
+.headphoto{
+  float: left;
+}
+.stars{
+  padding-top: 24rpx;
+  overflow: hidden;
+}
+.stars:last-child .stcon{
+  border: 0
+}
+.headphoto image{
+  width:72rpx;
+  height: 72rpx;
+}
+.stright{
+  float: right;
+  width: 85%;
+}
+.xstar{
+  float: right;
+}
+.xstar image{
+  width:21rpx;
+  height: 19rpx;
+  margin-left: 5rpx;
+}
+.zhshan text{
+  font-size: 24rpx;
+  color: #FFA826;
+}
+.zhtime{
+  font-size: 20rpx;
+  color: #8A8F9B;
+  margin-top: 10rpx;
+}
+.stcon{
+  font-size: 28rpx;
+  color: #333333;
+  margin-top: 20rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  padding-bottom: 24rpx;
+  border-bottom: 1rpx solid #DDDDDD;
+}
+.scxqfoot{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.scxqfoot text{
+  display: inline-block;
+  width:50%;
+  line-height: 98rpx;
+  height: 98rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+.scxqfoot text:first-child{
+  background: #FFF5E6;
+  color: #FFA826;
+}
+.scxqfoot text:last-child{
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  color: #fff;
+}
+.add_star{
+  width:56rpx;
+  height: 56rpx;
+  background: #000000;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 50%;
+  position: absolute;
+  top: 39rpx;
+  right: 35rpx;
+}
+.add_star image{
+  margin-top: 14rpx;
+  width:28rpx;
+  height: 27rpx;
+}

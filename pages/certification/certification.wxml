@@ -1,0 +1,64 @@
+<!--pages/certification/certification.wxml-->
+<view class='certification_box'>
+  <view class='certification_list'>
+    <label>上传身份证正面照</label>
+    <view class='bianji'><image src='{{picurl}}/images/edit.png'></image> 编辑</view>
+  </view>
+  <view class='certification_list1'>
+    <label>姓名</label>
+    <input type='text' placeholder='张三三'></input>
+  </view>
+  <view class='certification_list1'>
+    <label>身份证号</label>
+    <input type='text' placeholder='142629199712215555'></input>
+  </view>
+  <view class='certification_list'>
+    <label class='fanmian'>上传身份证反面照</label>
+    <view class='addimg'><button style='background:url("{{picurl}}/images/addimg.png") no-repeat;background-size:100%;'></button></view>
+  </view>
+</view>
+
+<view class='certification_box'>
+  <view class='certification_list1'>
+    <label>驾照类型</label>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">{{array[index]}}
+      </view>
+    </picker>
+    <image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image>
+  </view>
+  <view class='certification_list1'>
+      <label>驾驶证有效期</label>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          {{date}}
+        </view>
+      </picker>
+    <image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image>
+  </view>
+  <view class='certification_list'>
+    <label class='fanmian'>上传驾驶证照片</label>
+    <view class='addimg'>
+      <button style='background:url("{{picurl}}/images/addimg1.png") no-repeat;background-size:100%;'></button>
+      <button style='background:url("{{picurl}}/images/addimg.png") no-repeat;background-size:100%;'></button>
+    </view>
+  </view>
+</view>
+
+<view class='certification_box'>
+  <view class='certification_list1'>
+    <label>信用卡卡号</label>
+    <input type='text' placeholder='请输入卡号'></input>
+  </view>
+</view>
+<view class='submit' bindtap='gosubmit'>提交</view>
+
+<view class='{{common?"common-tc":"disno"}}'>
+  <view class='common_content'>
+    <text class='content_tc'>恭喜您认证信息上传成功快去参与答题吧</text>
+    <view class='common_btn'>
+      <text bindtap='quxiaotc'>取消</text>
+      <text>去答题</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,81 @@
+
+<view class='boxs'>
+  <!--顶部轮播图  -->
+  <swiper autoplay="true" interval='2000' bindchange='handerChange'>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/xq_banner1.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/xq_banner1.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/xq_banner1.png'></image>
+    </swiper-item>
+  </swiper>
+  <view class='item-num'>{{index}}/3</view>
+  <!-- <view class="item-num" v-if="showLength>1">{{activeIndex+1}}/{{imagesUrl.length}}</view>
+  <view class="item-num" v-else>1/{{imagesUrl.length}}</view> -->
+  </view>
+  <view class='jifen'>
+    <view class='yidui'><text class='ji200'>￥166</text><image src='{{picurl}}/images/shuo_zu.png' bindtap='tishi' class='shuo_zu'></image><text class='yajin_ts'>押金提示</text><text class='duifen'>已兑换3.2万份</text></view>
+    <view class='xititle'>房车车载自行车架两台自行车架通用车架后背式伸缩自行车架</view>
+  </view>
+  <view class='scevaluate'>
+    <view class='scev1'><text class='scp1'>评价</text><view class='scp2'><text>查看全部</text><image src='{{picurl}}/images/scxqright.png'></image></view></view>
+    <view class='stars'>
+      <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+      <view class='stright'>
+        <view class='zhshan'>
+           <text>张一山</text> 
+          <view class='xstar'>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+        <view class='zhtime'>2015-10-18 02:16</view>
+        <view class='stcon'>这个房车在哪里预订？</view>
+      </view>
+    </view>
+    <view class='stars'>
+      <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+      <view class='stright'>
+        <view class='zhshan'>
+           <text>张一山</text> 
+          <view class='xstar'>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+        <view class='zhtime'>2015-10-18 02:16</view>
+        <view class='stcon'>好棒的一次房车旅行</view>
+      </view>
+    </view>
+  </view>
+  <view class='tuwen'>
+    <view class='tutitle'>图文详情</view>
+    <view class='tuphoto'>
+      <image src='{{picurl}}/images/xq1.png'></image>
+      <image src='{{picurl}}/images/xqimg3.png'></image>
+    </view>
+    <view class='tucon'>
+      <view>二十岁的女生小念在五岁时随父母移民到洛杉矶，在异国他乡长大的她继承了父母的优点，兼具敏感又热情的个性。青春期的时候，小念深爱的父亲患病离世，因母亲和她性格不合，她变得叛逆乖张，患上了忧郁症。幸亏在心理医生罗文的帮助下，小念不仅治好了病，还收获了幸福的爱情。</view> 
+      <view>就在生活看似步入正轨的时候，母亲安然却突然决定要带她回国一趟。本以为是一场短途的回乡之旅却因为各种意外的发生被无限延长。小念也因此遇到令她难以忘记的男生齐一天，开始陷入为了爱情不管不顾的疯狂状态。与此同时她也发现，和她朝夕相处二十年的母亲安然令她感觉陌生，在她的身后仿佛藏着一个又一个的秘密。</view>
+      <view>而这一切，冥冥之中好像都和一首叫做《大约在冬季》的歌曲有关……</view>
+      <view>爱情是守望，还是拥有?是坚持，还是放手?</view>
+      <view>是该轰轰烈烈，还是该细水长流？</view>
+      <view>对于每个热恋中的人来讲，这仿佛永远都是一个难题。</view>
+    </view>
+  </view>
+
+<view class='scxqfoot'>加入清单</view>
+
+<view wx:if="{{tishi == true}}" class='yajin_tishi'>
+  <view class='tishi_Cont'>
+    <view class='tishi_title'>押金提示</view>
+    <view class='tishi_neirong'>为保证房车使用，线下另需缴纳相关押金。在行程结束，房车例行检查没问题之后会退还全部押金。请您放心使用!</view>
+    <view class='tishi_btn' bindtap='closetishi'>知道了</view>
+  </view>
+</view>

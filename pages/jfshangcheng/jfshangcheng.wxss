@@ -1,0 +1,62 @@
+page{
+  background: #EAEBED;
+  font-size: 26rpx;
+}
+.head{
+  height: 320rpx;
+}
+.head image{
+  width:100%;
+  height: 320rpx;
+}
+.dui{
+  height: 56rpx;
+  padding:15rpx 0;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.dui view{
+  width:49.7%;
+  text-align: center;
+  float: left;
+}
+.jf,.jfs{
+  line-height: 55rpx;
+  height: 55rpx;
+  font-size: 30rpx;
+  color: #8A8F9B;
+  border-right: 1rpx solid #EFEFEF;
+}
+.jfs image{
+  width:27rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-right: 17rpx;
+}
+.jf image{
+  width:34rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-right: 17rpx;
+}
+.jf text{
+  color: #FFA826;
+  margin-left: 10rpx;
+}
+.jfcon{
+  background: #fff;
+}
+.condl{
+  width:100%;
+}
+.zhright{
+  font-size: 28rpx;
+  color: #FFA826;
+  margin-top: 55rpx;
+}
+.zhright text{
+  font-size: 24rpx;
+  color: #8A8F9B;
+  float: right;
+
+}

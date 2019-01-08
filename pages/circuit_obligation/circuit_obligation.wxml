@@ -1,0 +1,2 @@
+<import src="/pages/circuit_obmodule/circuit_obmodule"/>
+<template is="room_obligation" data="{{...room_ding}}"/>

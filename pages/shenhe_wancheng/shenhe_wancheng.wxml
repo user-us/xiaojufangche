@@ -1,0 +1,61 @@
+<!--pages/through/through.wxml-->
+<view class='pass_box'>
+  <view class='certification_box'>
+    <view class='certification_list'>
+      <label>上传身份证正面照</label>
+      <view class='bianji'><image src='/images/edit.png'></image> 编辑</view>
+    </view>
+    <view class='certification_list1'>
+      <label>姓名</label>
+      <input type='text' placeholder='张三三'></input>
+    </view>
+    <view class='certification_list1'>
+      <label>身份证号</label>
+      <input type='text' placeholder='142629199712215555'></input>
+    </view>
+    <view class='certification_list'>
+      <label>上传身份证反面照</label>
+      <view class='bianji'><image src='/images/edit.png'></image> 编辑</view>
+    </view>
+    <view class='certification_list1'>
+      <label>签发机关</label>
+      <input type='text' placeholder='张三三'></input>
+    </view>
+    <view class='certification_list1'>
+      <label>有效期限</label>
+      <input type='text' placeholder='2004.10.27-2024.10.26'></input>
+    </view>
+  </view>
+  <view class='certification_box'>
+    <view class='certification_list'>
+      <label>上传驾驶证正面</label>
+      <view class='bianji'><image src='/images/edit.png'></image> 编辑</view>
+    </view>
+    <view class='certification_list1'>
+      <label>驾照类型</label>
+      <input type='text' placeholder='张三三'></input>
+    </view>
+    <view class='certification_list1'>
+      <label>驾驶证有效期</label>
+      <input type='text' placeholder='2018-10-26'></input>
+    </view>
+     <view class='certification_list1'>
+      <label>驾驶证证号</label>
+      <input type='text' placeholder='45062119870230410'></input>
+    </view>
+    <view class='certification_list'>
+      <label>上传驾驶证反面</label>
+      <view class='bianji'><image src='/images/edit.png'></image> 编辑</view>
+    </view>
+    <view class='certification_list1'>
+      <label>档案编号</label>
+      <input type='text' placeholder='4506879224'></input>
+    </view>
+  </view>
+  <view class='certification_box'>
+    <view class='certification_list1'>
+      <label>信用卡卡号</label>
+      <input type='text' placeholder='62122645345378452'></input>
+    </view>
+  </view>
+</view>

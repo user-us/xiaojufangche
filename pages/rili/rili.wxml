@@ -1,0 +1,11 @@
+<yycalendar 
+	show="{{show}}" 
+	beginTime="08:00" 
+	endTime="06:00" 
+	timeGap="60" 
+	themeColor="{{themeColor}}"
+	showOverdue="false"
+  calendarType="yydates"
+	bind:yybindchange="_yybindchange"
+	bind:yybindhide="_yybindhide" />
+

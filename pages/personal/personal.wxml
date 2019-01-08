@@ -1,0 +1,87 @@
+<!--pages/personal/personal.wxml-->
+<import src="../footer/footer.wxml"/>
+
+<view class='personal_box' style='background:url({{picurl}}/images/per.png) no-repeat;background-size:100% 100%;'>
+  <view class='per_avat'>
+    <view class='avat_box'><image src='{{picurl}}/images/avatar_per.png'></image></view>
+    <view class='per_info'>
+      <text>小桔</text>
+      <text>15601186264</text>
+    </view>
+    <view class='member_per'>
+      <image src='{{picurl}}/images/member.png' mode='widthFix'></image>认证会员
+    </view>
+  </view>
+  <view class='per_tab'>
+    <navigator url='/pages/room_order/room_order'>
+      <image src='{{picurl}}/images/car1.png' class='car1' mode='widthFix'></image>
+      <text>租车订单</text>
+    </navigator>
+    <navigator>
+      <image src='{{picurl}}/images/line1.png' class='car1' mode='widthFix'></image>
+      <text>线路订单</text>
+    </navigator>
+    <navigator url='/pages/sc_dingdan/sc_dingdan'>
+      <image src='{{picurl}}/images/shop1.png' class='car1' mode='widthFix'></image>
+      <text>商城订单</text>
+    </navigator>
+    <navigator url='/pages/jifen_dingdan/jifen_dingdan'>
+      <image src='{{picurl}}/images/inter1.png' class='car1' mode='widthFix'></image>
+      <text>积分订单</text>
+    </navigator>
+  </view>
+</view>
+  <view class='per_cont'>
+  <navigator class='cont_list' url='/pages/per_info/per_info2'>
+      <image src='{{picurl}}/images/shoucang.png' class='' mode='widthFix'></image>
+      <text>我的收藏</text>
+    </navigator>
+    <navigator class='cont_list'>
+      <image src='{{picurl}}/images/xiaoju1.png' class='' mode='widthFix'></image>
+      <text>小桔商城</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/coupons/coupons'>
+      <image src='{{picurl}}/images/coupon1.png' class='' mode='widthFix'></image>
+      <text>优惠券</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/per_info/per_info2'>
+      <image src='{{picurl}}/images/info1.png' class='' mode='widthFix'></image>
+      <text>个人信息</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/certification/certification'>
+      <image src='{{picurl}}/images/drive1.png' class='' mode='widthFix'></image>
+      <text>驾驶认证</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/certification/certification'>
+      <image src='{{picurl}}/images/weizhang.png' class='' mode='widthFix'></image>
+      <text>违章处理</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/jfshangcheng/jfshangcheng'>
+      <image src='{{picurl}}/images/mall1.png' class='' mode='widthFix'></image>
+      <text>积分商城</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/protocol/protocol'>
+      <image src='{{picurl}}/images/agreement1.png' class='' mode='widthFix'></image>
+      <text>用户协议</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/management/management'>
+      <image src='{{picurl}}/images/address1.png' class='' mode='widthFix'></image>
+      <text>地址管理</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/fangche_answer/fangche_answer'>
+      <image src='{{picurl}}/images/answer1.png' class='' mode='widthFix'></image>
+      <text>房车问答</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/contact_service/contact_service'>
+      <image src='{{picurl}}/images/service1.png' class='' mode='widthFix'></image>
+      <text>联系客服</text>
+    </navigator>
+    <navigator class='cont_list' url='/pages/feedback/feedback'>
+      <image src='{{picurl}}/images/opinion1.png' class='' mode='widthFix'></image>
+      <text>意见反馈</text>
+    </navigator>
+  </view>
+  <view class='out_login'>退出登录</view>
+
+ 
+<template is="footer" data="{{datas}}"/>

@@ -1,0 +1,11 @@
+<!--pages/jiashirenzheng_dati/jiashirenzheng_dati.wxml-->
+<view class='dati_view'>
+  <view class='dati_cont'>驾驶员在高速路上行驶时，车辆左前轮突然爆胎，须第一时间紧握转向盘，然后轻踏制动踏板进行减速，并将车停靠在紧急停车带上。这样做的原因是什么？</view>
+  <view class='peixun_box'>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}" color='#FFA826' /><text class="{{item.value == xuanzhong?'radio_active':''}}">{{item.value}}</text>
+      </label>
+    </radio-group>
+  </view>
+</view>

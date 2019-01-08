@@ -1,0 +1,41 @@
+<!--pages/fangche_chuxing/fangche_chuxing.wxml-->
+<view class='chuxing_time'>
+  <view class='time_top' style='background:url("{{picurl}}/images/time_bg.png") no-repeat;background-size:100%;'>
+    <image src='{{picurl}}/images/time4.png' class='top_img'></image>
+  </view>
+  <view class='time_cont'>
+<view class='bots'>
+  <view class='ewai'>我的优惠券</view>
+      <radio-group bindchange="clickes" name="checkbox" class="check">
+              <label wx:for="{{checkes}}" wx:key="{{checkes}}" data-value="{{item.value}}"  class='call_vie {{qes == item.value?"is_checked":""}}'>
+                <view class='ch_left'><radio value="{{item.value}}" color='#FFA826'/></view><text>{{item.mon}}</text>
+              </label>
+      </radio-group>
+</view>
+    
+      
+    <view class='ewai'>订单金额</view>
+    <view class='dingexiang'>
+      <text>房车租赁合计金额</text><text bindtap='onChangeShowStates'>详细信息</text><image bindtap='onChangeShowStates' class="{{showViews?'bians':''}}"  src='{{picurl}}/images/bottom1.png '></image><text>￥9000</text>
+    </view>
+    <view class="zuos hide{{showViews?'show':''}}">
+      <view class='zuokan'><text>旅游线路</text><text>￥1800</text></view>
+      <view class='zuokan'><text>途径营地</text><text>￥2000</text></view>
+      <view class='zuokan'><text>额外项目</text><text>￥1800</text></view>
+      <view class='zuokan'><text>游玩项目</text><text>￥2000</text></view>
+    </view>
+    <view class='dingexiang'>
+      <text>旅行线路合计金额</text><text bindtap='onChangeShowStatess'>详细信息</text><image bindtap='onChangeShowStatess' class="{{showViewes?'bians':''}}"  src='{{picurl}}/images/bottom1.png '></image><text>￥5000</text> 
+    </view>
+    <view class="zuos hide{{showViewes?'show':''}}">
+      <view class='zuokan'><text>旅游线路</text><text>￥1800</text></view>
+      <view class='zuokan'><text>途径营地</text><text>￥2000</text></view>
+      <view class='zuokan'><text>额外项目</text><text>￥1800</text></view>
+      <view class='zuokan'><text>游玩项目</text><text>￥2000</text></view>
+    </view>
+    <view class='youhui'><text>优惠金额</text><text>-￥200</text></view>
+    <view class='youhui'><text>总金额</text><text>￥14000</text></view>
+  </view>
+  <view class='wancheng' bindtap='tishi'>立即预订</view>
+</view>
+

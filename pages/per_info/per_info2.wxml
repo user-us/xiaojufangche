@@ -1,0 +1,10 @@
+<!--pages/per_info/per_info.wxml-->
+<view class='info_cont'>
+  <view class='info_avat'><image src='{{picurl}}/images/avatar_per.png'></image></view>
+  <view class='write_input'><label>驾驶分数</label><input type='text' value='90分'></input><image src='{{picurl}}/images/wen.png' class='wen'></image></view>
+  <view class='write_input'><label>姓名</label><input type='text' placeholder='请输入姓名'></input><image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image></view>
+  <view class='write_input'><label>身份证号</label><input type='text' placeholder='请输入身份证号'></input><image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image></view>
+  <view class='write_input'><label>手机号</label><input type='text' value="15601186264"></input><image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image></view>
+  <view class='write_input'><label>昵称</label><input type='text'  value='小桔'></input></view>
+  <view class='write_input'><label>会员类型</label><input type='text' value='会员类型'></input><image src='{{picurl}}/images/wen.png' class='wen'></image></view>
+</view>

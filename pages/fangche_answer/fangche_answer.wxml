@@ -1,0 +1,50 @@
+<!--pages/fangche_answer/fangche_answer.wxml-->
+<view class='search'>
+  <icon type='search' size='14'></icon>格林卡诺
+</view>
+<view class='answer_cont'>
+  <view class='answer_list'>
+    <view class='wen_cont'>
+      <text class='wen_a'>Q</text>
+      <text>房车自驾游六问六答?</text>
+    </view>
+    <view class='an_cont'>
+      <text class='da_a'>A</text>
+      <text>哪怕你的房车内部储物空间布置的再合理，也一定要再出行前列一份行李清单，为你的长途或者短途的房车出行做好必要准备。出行前确认好每样东西是否准备好了是非常必要的。
+</text>
+    </view>
+  </view>
+  <view class='answer_list'>
+    <view class='wen_cont'>
+      <text class='wen_a'>Q</text>
+      <text>房车最多可以住几人?</text>
+    </view>
+    <view class='an_cont'>
+      <text class='da_a'>A</text>
+      <text>哪怕你的房车内部储物空间布置的再合理，也一定要再出行前列一份行李清单，为你的长途或者短途的房车出行做好必要准备。出行前确认好每样东西是否准备好了是非常必要的。
+</text>
+    </view>
+  </view>
+  <view class='answer_list'>
+    <view class='wen_cont'>
+      <text class='wen_a'>Q</text>
+      <text>房车自驾游六问六答?</text>
+    </view>
+    <view class='an_cont'>
+      <text class='da_a'>A</text>
+      <text>哪怕你的房车内部储物空间布置的再合理，也一定要再出行前列一份行李清单，为你的长途或者短途的房车出行做好必要准备。出行前确认好每样东西是否准备好了是非常必要的。
+</text>
+    </view>
+  </view>
+  <view class='answer_list'>
+    <view class='wen_cont'>
+      <text class='wen_a'>Q</text>
+      <text>房车自驾游六问六答?</text>
+    </view>
+    <view class='an_cont'>
+      <text class='da_a'>A</text>
+      <text>哪怕你的房车内部储物空间布置的再合理，也一定要再出行前列一份行李清单，为你的长途或者短途的房车出行做好必要准备。出行前确认好每样东西是否准备好了是非常必要的。
+</text>
+    </view>
+  </view>
+</view>

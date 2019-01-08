@@ -1,0 +1,88 @@
+page{
+  height: 100%;
+}
+.scevaluate{
+  padding: 0 26rpx;
+  background: #fff;
+  height: 100%;
+}
+.returns{
+  color: #FFA826;
+}
+.scp1{
+  font-size: 30rpx;
+  color: #101010;
+}
+.scp2{
+  float: right;
+  font-size: 26rpx;
+  color: #FFA826;
+}
+.headphoto{
+  float: left;
+}
+.stars{
+  padding-top: 24rpx;
+  overflow: hidden;
+}
+.headphoto image{
+  width:72rpx;
+  height: 72rpx;
+}
+.stright{
+  float: right;
+  width: 85%;
+  padding-bottom: 24rpx;
+  border-bottom: 1rpx solid #DDDDDD;
+}
+.xstar{
+  float: right;
+}
+.xstar image{
+  width:21rpx;
+  height: 19rpx;
+  margin-left: 5rpx;
+}
+.zhshan text{
+  font-size: 24rpx;
+  color: #FFA826;
+}
+.zhshans text{
+  font-size: 24rpx;
+  margin-right: 10rpx;
+}
+.zhtime{
+  font-size: 20rpx;
+  color: #8A8F9B;
+  margin-top: 10rpx;
+}
+.stcon{
+  font-size: 28rpx;
+  color: #333333;
+  margin-top: 20rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.scxqfoot{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.scxqfoot text{
+  display: inline-block;
+  width:50%;
+  line-height: 98rpx;
+  height: 98rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+.scxqfoot text:first-child{
+  background: #FFF5E6;
+  color: #FFA826;
+}
+.scxqfoot text:last-child{
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  color: #fff;
+}

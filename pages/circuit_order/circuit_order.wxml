@@ -1,0 +1,85 @@
+<!--pages/jifen_dingdan/jifen_dingdan.wxml-->
+<import src="/pages/room_dl/room_dl"/>
+<view class='sw_box'>
+<view class="swiper-tab" bindtap='tabFun'>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='0'? 'on' : ''}}" id="tab-hd01" data-id="0"><text bindtap='tabFun' data-id="0">待付款</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='1'? 'on' : ''}}" id="tab-hd02" data-id="1"><text bindtap='tabFun' data-id="1">待开始</text></view>
+   <view class="swiper-tab-list {{tabArr.curHdIndex=='2'? 'on' : ''}}" id="tab-hd03" data-id="2"><text bindtap='tabFun'data-id="2">进行中</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='3'? 'on' : ''}}" id="tab-hd03" data-id="3"><text bindtap='tabFun'data-id="3">已完成</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='4'? 'on' : ''}}" id="tab-hd04" data-id="4"><text bindtap='tabFun'data-id="4">退订售后</text></view>
+</view>
+</view>
+<view class="tab-right"> 
+  <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay1'>审核中</text><text class='pay2'>付款</text></view>
+    </view>
+
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay1'>待付款</text><text class='pay3'>付款</text></view>
+    </view>
+
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay1'>待开始</text><text class='pay4'>取消订单</text></view>
+    </view>
+
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay1'>待开始</text><text class='pay4'>取消订单</text></view>
+    </view>
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay1'>进行中</text><text class='pay3'>呼叫救援</text></view>
+    </view>
+
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay1'>救援处理中</text><text class='pay2'>呼叫救援</text></view>
+    </view>
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pays'><text class='pay1'>车辆验收中</text></view>
+    </view>
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay5'>交易完成</text><text class='pay4' bindtap='del'>删除订单</text></view>
+    </view>
+
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay5'>交易完成</text><text class='pay3'>评价</text></view>
+    </view>
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='4'? 'active' : ''}}">
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay1'>退款审核中</text><text class='pay4'>查看详情</text></view>
+    </view>
+
+    <view class='room_dai'>
+      <template is="circuit_dl"/>
+      <view class='pay'><text class='pay5'>退款成功</text><text class='pay4'>查看详情</text></view>
+    </view>
+  </view>
+</view>
+<view class='{{show?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>确认删除</text>
+    <text class='jujues'>确定要删除这个订单吗？</text>
+    <view class='btn_jujue'>
+      <text bindtap='close'>取消</text>
+      <text class='success'>确定</text>
+    </view>
+  </view>
+</view>
+<!-- 商城订单-暂无 -->
+<!-- <view class='wudingd'><image src='/images/scddall.png'></image></view> -->

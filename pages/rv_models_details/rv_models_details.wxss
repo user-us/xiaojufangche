@@ -1,0 +1,141 @@
+.boxs{
+  position: relative;
+  height: 454rpx;
+}
+swiper{
+  height: 454rpx;
+  margin-bottom: 20rpx;
+}
+swiper-item{
+  height: 454rpx;
+  width: 100%;
+}
+swiper-item image{
+  width:100%;
+  height: 454rpx;
+}
+.item-num{
+  z-index: 9;
+  position: absolute;
+  color:rgba(255,255,255,0.75);
+  bottom: 20rpx;
+  right: 20rpx;
+  background: rgba(0,0,0,0.5);
+  width:89rpx;
+  text-align: center;
+  height: 44rpx;
+  line-height: 44rpx;
+  border-radius: 22rpx;
+  font-size: 24rpx;
+}
+.add_star{
+  width:56rpx;
+  height: 56rpx;
+  background: #000000;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 50%;
+  position: absolute;
+  top: 39rpx;
+  right: 35rpx;
+}
+.add_star image{
+  margin-top: 14rpx;
+  width:28rpx;
+  height: 27rpx;
+}
+.de_tit{
+  padding: 34rpx 26rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.de_ts{
+  font-size: 30rpx;
+}
+.de_mons{
+  margin-top: 15rpx;
+}
+.de_mons image{
+  width: 27rpx;
+  height: 27rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.de_mon{
+  font-size: 28rpx;
+  color: #FFA826;
+  margin-right:15rpx;
+}
+.yamon,.ties{
+  font-size: 24rpx;
+  color: #8A8F9B;
+}
+.ties{
+  float: right;
+}
+.car_information{
+  background: #fff;
+  padding: 0 26rpx;
+  padding-bottom: 30rpx;
+  margin-bottom: 20rpx;
+}
+.infor_tit{
+  line-height: 110rpx;
+  height: 110rpx;
+  color: #858994;
+  font-size: 24rpx;
+}
+.infor_con{
+  font-size: 24rpx;
+  color: #333;
+}
+.infor_con text{
+  display: inline-block;
+  width:50%;
+  margin-bottom: 25rpx;
+}
+.infor_con view{
+  font-size: 24rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.ser_tit{
+  line-height: 110rpx;
+  color: #858994;
+  font-size: 24rpx;
+}
+.ser_dl{
+  width:20%;
+  display: inline-block;
+  margin-bottom: 40rpx;
+}
+.ser_dt{
+  width:100%;
+  text-align: center;
+}
+.ser_dt image{
+  width:50rpx;
+  height: 50rpx;
+}
+.ser_dd{
+  width:100%;
+  text-align: center;
+  color: #555555;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.determine{
+  width:100%;
+  color: #fff;
+  font-size: 32rpx;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  text-align: center;
+  height: 83rpx;
+  line-height: 83rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.carde_con{
+  margin-bottom:83rpx;
+}

@@ -1,0 +1,11 @@
+/* pages/feedback/feedback.wxss */
+.help_cont{background: #fff;padding: 30rpx;margin-bottom:20rpx; }
+.help_cont textarea{height: 357rpx;width: 100%;}
+.text_write{font-size: 26rpx;color:#8A8F9B; }
+.your_tel{height: 88rpx;line-height: 88rpx;background: #fff;}
+.your_tel input{height: 88rpx;line-height: 88rpx;padding-left: 30rpx;}
+.save_btn{margin-top: 60rpx;}
+.save_btn button{width: 600rpx;height: 83rpx;line-height: 83rpx;background: linear-gradient(#FFCA31, #FDA823);border: none;color: #fff;
+font-size: 32rpx;font-weight: bold }
+
+

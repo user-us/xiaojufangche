@@ -1,0 +1,6 @@
+.nav{position: fixed;bottom: 0;width: 100%;background: #fff;display: flex;flex-direction: row;height: 95rpx;border-top: 1px solid #D9D9D9}
+.tab_nav{width: 25%;}
+.nav_list{display: flex;flex-direction: column;text-align: center;color: #8A8F9B;font-size: 18rpx;height: 95rpx;}
+.nav_list image{width: 32rpx;height: 34rpx;margin:20rpx auto 10rpx auto}
+.hover{color: #FFA826}
+.navigator-hover{background: none}

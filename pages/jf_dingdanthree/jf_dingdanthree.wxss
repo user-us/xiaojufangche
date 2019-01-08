@@ -1,0 +1,125 @@
+
+/* 订单详情3个页面 */
+.fah{
+  height: 148rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.fah text{
+  display: block;
+  padding:0 26rpx;
+}
+.maijia{
+  font-size: 30rpx;
+  color: #FFA826;
+  line-height: 85rpx;
+}
+.sudi{
+  font-size: 24rpx;
+  color: #8A8F9B;
+}
+.address{
+  height: 138rpx;
+  line-height: 138rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.address image{
+  width:36rpx;
+  height: 39rpx;
+  padding:0 25rpx;
+  margin-top: 50rpx;
+}
+.adds{
+  width:665rpx;
+  float: right;
+  line-height: 45rpx;
+}
+.adds text{
+  display: block;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.adds text:last-child{
+  color: #8A8F9B;
+}
+.adds text:first-child{
+  margin-top: 22rpx;
+}
+
+
+.numb{
+  font-size: 26rpx;
+  text-align: right;
+  margin-top: 15rpx;
+  color: #333333;
+}
+.yig{
+  font-size: 26rpx;
+  color: #8A8F9B;
+  text-align: right;
+  margin-top: 22rpx;
+}
+.dingdan{
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.zonge{
+  margin: 0 26rpx;
+  border-bottom: 1rpx solid #EFEFEF;
+}
+.zonge view{
+  line-height: 76rpx;
+}
+.jifena{
+  float: right;
+  color: #666;
+}
+.shiji{
+  padding:0 26rpx;
+  line-height: 85rpx;
+  height: 85rpx;
+  text-align: right;
+}
+.ji166{
+  color: #ffa826;
+}
+.xiadan{
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.xiadan view{
+  padding: 0 26rpx;
+  line-height: 70rpx;
+  height: 70rpx;
+}
+.xiadan view .text1{
+  color: #1D2124;
+}
+.xi_right{
+  color: #666666;
+  float: right;
+}
+.foot{
+  width: 100%;
+  height: 94rpx;
+  background: #fff;
+  line-height: 94rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow:1rpx -6px 9px 0px rgba(0, 0, 0, 0.03);
+}
+.foot text{
+  width: 216rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(#FFCA31, #FDA823);
+  float: right;
+  margin-right: 28rpx;
+  border-radius: 10rpx;
+  margin-top: 12rpx;
+}

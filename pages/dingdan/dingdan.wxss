@@ -1,0 +1,11 @@
+/* pages/dingdan/dingdan.wxss */
+@import "../footer/footer";
+
+.dingdan_box{background: #fff;padding:0 30rpx;border-top: 1px solid #E6E6E6}
+.dingdan_list{height: 110rpx;line-height: 110rpx;border-bottom: 1px solid #E6E6E6;font-size: 30rpx;color: #1D2124}
+.dingdan_list image{width: 34rpx;height: 40rpx;margin-right: 30rpx;vertical-align: middle;margin-bottom: 10rpx;}
+.dingdan_list .zuche{width: 38rpx;height: 36rpx;}
+.dingdan_list .right_jt{width: 12rpx;height: 20rpx;float: right;margin-top: 50rpx;margin-right: 0}
+.dingdan_list:last-child{border-bottom: 0}
+
+

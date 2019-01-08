@@ -1,0 +1,79 @@
+.room_dl{
+  border-bottom: 1px solid #EFEFEF;
+  padding: 40rpx 0;
+  overflow: hidden;
+}
+.room_dt{
+  width:291rpx;
+  height: 176rpx;
+  margin-right: 27rpx;
+  float: left;
+}
+.room_dt image{
+  width:291rpx;
+  height: 176rpx;
+  border-radius: 10rpx;
+}
+.room_dd{
+  float: left;
+}
+.rdl_tit{
+  width:380rpx;
+  font-size: 30rpx;
+  color: #000000;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.rdl_pay{
+  margin-top: 20rpx;
+}
+.rdl_pay text:first-child{
+  color: #FFA826;
+  font-size: 28rpx;
+}
+.rdl_pay text:last-child{
+  color: #333333;
+  font-size: 26rpx;
+  float: right;
+}
+.rdl_he{
+  text-align: right;
+  color: #8A8F9B;
+  margin-top: 34rpx;
+}
+.circuit_dl{
+  overflow: hidden;
+  padding: 40rpx 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.circuit_dt{
+  width:291rpx;
+  height: 176rpx;
+  float: left;
+  margin-right: 27rpx;
+}
+.circuit_dt image{
+  width:291rpx;
+  height: 176rpx;
+}
+.circuit_dd{
+  width:371rpx;
+  float: left;
+}
+.circ_tit{
+  font-size: 30rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.circ_mon{
+  color: #FFA826;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.circ_heji{
+  color: #8A8F9B;
+  text-align: right;
+}

@@ -1,0 +1,22 @@
+@import '/pages/shangcheng_shangpinxiangqing/shangcheng_shangpinxiangqing';
+.shuo_zu{width:24rpx;height: 24rpx;vertical-align: middle;margin:0 10rpx 3rpx 20rpx;}
+.yajin_ts{font-size: 24rpx;color: #8A8F9B}
+.scxqfoot{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  color: #fff;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.yajin_tishi{position: fixed;width: 100%;top: 0;height: 100%;background: rgba(0,0,0,0.3);z-index: 10}
+.tishi_Cont{width: 570rpx;height: 495rpx;background: #fff;border-radius: 20rpx;margin:300rpx auto;position: relative;overflow: hidden}
+.tishi_title{height:146rpx;line-height: 146rpx;font-size: 36rpx;text-align: center; }
+.tishi_neirong{margin: 0 30rpx;font-size: 30rpx;line-height: 50rpx;}
+.tishi_btn{position: absolute;bottom: 0;width: 100%;background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));text-align: center;height: 86rpx;line-height: 86rpx;color: #fff;font-size: 30rpx }
+
+

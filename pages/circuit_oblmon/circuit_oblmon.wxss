@@ -1,0 +1,4 @@
+@import "/pages/circuit_obmodule/circuit_obmodule";
+.circuit_dl{
+  border: 0;
+}

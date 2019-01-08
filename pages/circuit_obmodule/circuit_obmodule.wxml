@@ -1,0 +1,119 @@
+<template name="room_obligation">
+<view class='roomob_title'>
+  <text>{{roomtitles}}</text>
+  <text>{{roomadds}}</text>
+</view>
+<view class='tuiding' wx:if="{{roomtitles == '退款成功'}}">
+  <view><text>退订总金额</text><text>￥12800</text></view>
+  <view><text>退回微信余额</text><text>￥12800</text></view>
+</view>
+<view class='roomob_con'>
+  <view class='circuit_dl'>
+    <view class='circuit_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='circuit_dd'>
+      <view class='circ_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='circ_mon'>￥5800/日均</view>
+      <view class='circ_heji'>合计:￥9000</view>
+    </view>
+  </view>
+  <view class='room_add'>
+    <text>取车地点：天津市</text><text>还车地点：天津市</text>       
+  </view>
+  <view class='room_time'>出游时间：10月25日 10:00  ~  01月05日 10:30</view>
+  <view class='room_xiang' bindtap='onChangeShowState'><text>展开详情</text><image class="{{showView?'bians':''}}" src='{{picurl}}/images/bottom.png'></image></view>
+  <!-- 详情 -->
+  <view class="room_con hide {{showView?'show':''}}">
+    
+    
+    
+    <view class='zhan_con'>
+      <view class='ewai'>途径营地</view>
+      <view class='tutit'>广西梧州市自驾车旅游营地</view>
+      <view class='tuadd'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+      <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      <view class='ewais'>额外项目</view>
+      <view class='babukui'><text>烧烤</text><text>￥180</text></view>
+      <view class='babukui'><text>蹦极</text><text>￥180</text></view>
+      <view class='tuheji'><text>营地:￥5800</text><text>项目：￥1200</text><text>合计：￥7000</text></view>
+    </view>
+    <view class='zhan_con'>
+      <view class='tutit'>广西梧州市自驾车旅游营地</view>
+      <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+      <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      <view class='tuheji'>合计:￥1800</view>
+    </view>
+    <view class='zhan_con'>
+      <view class='ewai'>游玩项目</view>
+      <view class='tutit'>广西梧州市自驾车旅游营地</view>
+      <view class='tuadd'><image src='{{picurl}}/images/address.png'></image>北京</view>
+      <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      <view class='tuheji'>合计:￥1800</view>
+    </view>
+    <view class='zhan_con'>
+      <view class='ewai'>已选车辆</view>
+      <view class='edl'>
+        <view class='edt'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='edd'><text>2018款 格林卡诺 C2款</text><text>￥5800/日均</text></view>
+        <view class='eheji'>合计:￥5800</view>
+      </view>
+    </view>
+    <view class='zhan_con'>
+      <view class='ewai'>额外物品</view>
+      <view class='extra'>
+        <view class='outdoors'><text>户外椅子</text><text>200元</text><text>共2把  合计:￥800</text></view>
+        <view class='outdoors'><text>户外帐篷</text><text>400元</text><text>共1顶  合计:￥400</text></view>
+      </view>
+    </view>
+    <view class='zhan_con'>
+      <view class='ewai'>保险类型</view>
+      <view class='person'><text>1000万人身意外险</text><text>合计:￥1000</text></view>
+    </view>
+    <view class='zhan_con'>
+      <view class='ewai'>领队信息</view>
+      <view class='lingdui'><text>领队姓名</text><text>张小花</text></view>
+      <view class='lingdui'><text>领队电话</text><text>18213555513</text></view>
+      <view class='lingdui'><text>领队性别</text><text>女</text></view>
+      <view class='lingdui'><text>领队简介</text><text>文字内容介绍</text></view>
+    </view>
+  </view>
+  
+</view>
+<!-- 详情 -->
+<view class='dinge' wx:if="{{roomtitles != '退款成功'}}">
+  <view class='ewai'>订单金额</view>
+  <view class='dingexiang'>
+    <text>房车租赁合计金额</text><text bindtap='onChangeShowStates'>详细信息</text><image bindtap='onChangeShowStates' class="{{showViews?'bians':''}}"  src='{{picurl}}/images/bottom1.png '></image><text>￥9000</text>
+  </view>
+  <view class="zuos hide{{showViews?'show':''}}">
+    <view class='zuokan'><text>旅游线路</text><text>￥1800</text></view>
+    <view class='zuokan'><text>途径营地</text><text>￥2000</text></view>
+    <view class='zuokan'><text>额外项目</text><text>￥1800</text></view>
+    <view class='zuokan'><text>游玩项目</text><text>￥2000</text></view>
+  </view>
+  <view class='dingexiang'>
+    <text>旅行线路合计金额</text><text bindtap='onChangeShowStatess'>详细信息</text><image bindtap='onChangeShowStatess' class="{{showViewes?'bians':''}}"  src='{{picurl}}/images/bottom1.png '></image><text>￥5000</text> 
+  </view>
+  <view class="zuos hide{{showViewes?'show':''}}">
+    <view class='zuokan'><text>旅游线路</text><text>￥1800</text></view>
+    <view class='zuokan'><text>途径营地</text><text>￥2000</text></view>
+    <view class='zuokan'><text>额外项目</text><text>￥1800</text></view>
+    <view class='zuokan'><text>游玩项目</text><text>￥2000</text></view>
+  </view>
+  <view class='youhui'><text>优惠金额</text><text>-￥200</text></view>
+  <view class='youhui'><text>总金额</text><text>￥14000</text></view>
+  <view class='daifuk'>待付款：<text>￥12000</text></view>
+</view>
+<view class='dingbian' wx:if="{{roomtitles != '退款成功'}}">
+  <view class='dbiao'><text>订单编号</text><text>7386300933</text></view>
+  <view class='dbiao'><text>下单时间</text><text>2018-04-06 20:33:01</text></view>
+</view>
+<view class='dingbians' wx:if="{{roomtitles == '退款成功'}}">
+  <view class='dbiao'><text>退订原因</text><text>临时有事不想租了</text></view>
+  <view class='dbiao'><text>退订金额</text><text>￥12800</text></view>
+  <view class='dbiao'><text>申请时间</text><text>2018-10-22 14:16</text></view>
+  <view class='dbiao'><text>退款编号</text><text>554976234476</text></view>
+</view>
+<view class='obfoot' wx:if="{{roomtitles == '审核中'}}"><text class='carbg1'>去支付</text></view>
+<view class='obfoot' wx:if="{{roomtitles == '待付款'}}"><text class='carbg'>去支付</text></view>
+<view class='obfoot' wx:if="{{roomtitles == '待取车'}}"><text class='carbg2'>取消订单</text></view>
+</template>

@@ -1,0 +1,23 @@
+<view class='search_box'>
+  <view class='search_top'><icon type='search' size='14'></icon><input placeholder='布达拉宫'></input></view>
+  <view class='hot_search'>
+    <text class='hot_title'>热门搜索</text>
+    <view class='hot_cont'>
+      <text>漫画图解</text>
+      <text>我的第一次房车旅行</text>
+      <text>老司机营地录</text>
+      <text>寻找答题王</text>
+      <text>三行情书</text>
+      <text>海南</text>
+    </view>
+  </view>
+  <view class='history_search'>
+    <image src='/images/del.png' class='del_history'></image>
+    <text class='hot_title'>历史搜索</text>
+    <view class='hot_cont'>
+      <text>西藏</text>
+      <text>房车达人</text>
+      <text>日本富士山</text>
+    </view>
+  </view>
+</view>

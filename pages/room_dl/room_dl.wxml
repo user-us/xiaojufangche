@@ -1,0 +1,20 @@
+<template name="room_dl">
+  <view class='room_dl'>
+    <view class='room_dt'><image src='{{room_data.picurl}}/images/img1.png'></image></view>
+    <view class='room_dd'>
+      <view class='rdl_tit'>{{room_data.roomtitle}}</view>
+      <view class='rdl_pay'><text>{{room_data.roompay}}</text><text>{{room_data.roomnum}}</text></view>
+      <view class='rdl_he'>共{{room_data.roomdate}}天  合计:{{room_data.roommoney}}</view>
+    </view>
+  </view>
+</template>
+<template name="circuit_dl">
+  <view class='circuit_dl'>
+    <view class='circuit_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='circuit_dd'>
+      <view class='circ_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='circ_mon'>￥5800/日均</view>
+      <view class='circ_heji'>合计:￥9000</view>
+    </view>
+  </view>
+</template>

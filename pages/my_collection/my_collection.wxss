@@ -1,0 +1,175 @@
+.sw_box{
+  width:100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.swiper-tab{  
+    background: #fff;
+    line-height: 80rpx;
+    height: 80rpx;
+    margin: 0 26rpx;
+    border-bottom: 1px solid #EFEFEF;
+  }  
+.swiper-tab-list{  
+  font-size: 30rpx;  
+  display: inline-block;  
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #A0A2A3;
+  width: 25%;
+  font-weight: bold;
+  position: relative;
+} 
+.on text{  
+  color: #000000;
+  padding-bottom: 13rpx;
+  
+} 
+ .on text:after{
+  	content: "";
+  	display: block;
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 4rpx;
+  	background: #FFA826;
+  	width:30%;
+  	margin:0 auto;
+}
+.swiper-box{ display: block; min-height: 100%; width: 100%; overflow: hidden; }  
+.swiper-box view{  
+    text-align: center;  
+}  
+.tab-right{ 
+  line-height: 160%; 
+  margin-top: 80rpx;
+} 
+.tab-right .right-item{ 
+  display: none; 
+} 
+.tab-right .right-item.active{ 
+  display: block; 
+} 
+.car_shou{
+  padding: 0 26rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.car_shoudl{
+  padding: 40rpx 0;
+  overflow: hidden;
+  border-bottom: 1px solid #EFEFEF;
+}
+.car_shoudt{
+  width:291rpx;
+  height: 176rpx;
+  margin-right: 28rpx;
+  float: left;
+}
+.car_shoudt image{
+  width:291rpx;
+  height: 176rpx;
+}
+.car_shoudd{
+  float: left;
+  width: 370rpx;
+}
+.car_tit{
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.car_tits{
+  font-size: 30rpx;
+  height: 120rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+.fucar{
+  height: 104rpx;
+}
+.fucar text{
+  display: inline-block;
+  height: 28rpx;
+  line-height: 28rpx;
+  padding:0 13rpx;
+  margin-right: 16rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background: #CFCFCF;
+  border-radius: 5rpx;
+}
+.car_mon,.car_mons{
+  line-height: 25rpx;
+}
+.car_mon text:first-child,.car_mons text{
+  font-size: 28rpx;
+  color: #FFA826;
+}
+.car_mon text:last-child{
+  font-size: 24rpx;
+  color: #8A8F9B;
+  float: right;
+}
+.car_coll{
+  height: 98rpx;
+  line-height: 98rpx;
+}
+.car_coll text:first-child{
+  color: #FFA826;
+}
+.car_coll text:last-child{
+  float: right;
+  color: #fff;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  width:142rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  text-align: center;
+  border-radius: 6rpx;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}
+.di_tit{
+  font-size: 30rpx;
+  height: 85rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  overflow: hidden;
+  margin-bottom: 15rpx;
+}
+.di_addres{
+  font-size: 24rpx;
+  color: #8A8F9B;
+}
+.di_addres image{
+  width:16rpx;
+  height: 20rpx;
+  margin-right: 5rpx;
+}
+.di_go{
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #8A8F9B;
+}
+.di_go image{
+  width: 25rpx;
+  height: 24rpx;
+  float: right;
+  margin-left: 10rpx;
+}
+.motop{
+  margin-top: 25rpx;
+}
+.motops{
+  margin-top: 18rpx;
+}

@@ -1,0 +1,14 @@
+/* pages/coupons/coupons.wxss */
+.coupons_cont{height: 200rpx;width: 699rpx;margin: 15rpx auto;display: flex;flex-direction: row}
+.coupons_cont:first-child{margin-top: 40rpx;}
+.coupon_left{display: flex;flex-direction: column;color: #FEFEFE;font-size: 24rpx;text-align: center;width: 240rpx;}
+.coupon_money{font-size:30rpx;margin-top: 30rpx;margin-bottom: 20rpx; }
+.coupon_money text{font-size: 60rpx;}
+.coupon_right{width: 440rpx;margin-left: 20rpx;display: flex;flex-direction: column;font-size:26rpx;color: #8A8F9B; }
+.coupon_right text:first-child{font-size: 30rpx;color: #333;margin-bottom: 20rpx;margin-top: 50rpx;}
+
+
+
+
+
+

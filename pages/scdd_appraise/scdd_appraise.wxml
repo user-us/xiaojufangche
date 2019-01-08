@@ -1,0 +1,14 @@
+<view class='apprahead'>
+  <view class='con_dl'>
+    <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+      <view class='commpy'><text>商品评分</text><image src='{{picurl}}/images/star1.png'></image><image src='{{picurl}}/images/star1.png'></image><image src='{{picurl}}/images/star1.png'></image><image src='{{picurl}}/images/star1.png'></image><image src='{{picurl}}/images/star2.png'></image></view>
+    </view>
+  </view>
+ 
+</view>
+ <view class='comtext'>
+    <textarea placeholder='宝贝满足你的期待吗？说说你的体验，分享给想买的TA们吧'></textarea>
+  </view>
+  <button class='comti'>提交</button>

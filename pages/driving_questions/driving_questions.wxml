@@ -1,0 +1,48 @@
+<view class='questions' bindchange="radioChange">
+  <view class='quest_con'>驾驶员在高速路上行驶时，车辆左前轮突然爆胎，须第一时间紧握转向盘，然后轻踏制动踏板进行减速，并将车停靠在紧急停车带上。这样做的原因是什么？</view>
+  <radio-group bindchange="radioCheckedChange">
+    <label class='quest_options {{qes == 0?"is_checked":""}}'> 
+      <text class='{{qes == 0?"disno":"qtext"}}'>A</text> 
+      <radio color='#FFA826' value="0" class='{{qes == 0?"diblock":"disno"}}'/> <text>爆胎后，须紧握转向盘</text>
+    </label>
+   <label class='quest_options {{qes == 1?"is_checked":""}}'> 
+      <text class='{{qes == 1?"disno":"qtext"}}'>B</text> 
+      <radio color='#FFA826' value="1" class='{{qes == 1?"diblock":"disno"}}'/> <text>爆胎后，须紧握转向盘</text>
+    </label>
+    <label class='quest_options {{qes == 2?"is_checked":""}}'> 
+      <text class='{{qes == 2?"disno":"qtext"}}'>C</text> 
+      <radio color='#FFA826' value="2" class='{{qes == 2?"diblock":"disno"}}'/> <text>爆胎后，须紧握转向盘</text>
+    </label>
+    <label class='quest_options {{qes == 3?"is_checked":""}}'> 
+      <text class='{{qes == 3?"disno":"qtext"}}'>D</text> 
+      <radio color='#FFA826' value="3" class='{{qes == 3?"diblock":"disno"}}'/> <text>爆胎后，须紧握转向盘</text>
+    </label>
+  </radio-group>
+  
+</view>
+<view class='quest_boot'>
+  <text class='que_now'>3</text><text class='que_all'>/20</text>
+  <view class='quest_dl'>
+    <view class='quest_dt'><image src='/images/quest_next.png'></image></view>
+    <view class='quest_dd' bindtap='addplay'>下一题</view>
+  </view>
+</view>
+
+<view class='{{show?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>恭喜您通过答题</text>
+    <view class='btn_jujue'>
+      <text bindtap='close'>取消</text>
+      <text class='success'>去报名</text>
+    </view>
+  </view>
+</view>
+<view class='{{shows?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>很抱歉您未能通过答题</text>
+    <view class='btn_jujue'>
+      <text bindtap='close'>取消</text>
+      <text class='success'>确定</text>
+    </view>
+  </view>
+</view>

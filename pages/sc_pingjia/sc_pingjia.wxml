@@ -1,0 +1,78 @@
+<view class='scevaluate'>
+    
+    <view class='stars'>
+      <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+      <view class='stright'>
+        <view class='zhshan'>
+           <text>张一山</text> 
+          <view class='xstar'>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+        <view class='zhtime'>2015-10-18 02:16</view>
+        <view class='stcon'>这个房车在哪里预订？</view>
+      </view>
+    </view>
+    <view class='stars'>
+      <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+      <view class='stright'>
+        <view class='zhshan'>
+           <text>张一山</text> 
+          <view class='xstar'>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+        <view class='zhtime'>2015-10-18 02:16</view>
+        <view class='stcon'>这个房车在哪里预订？</view>
+      </view>
+    </view>
+
+    <view class='stars'>
+      <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+      <view class='stright'>
+        <view class='zhshans'>
+           <text class='returns'>小桔房车</text> <text>回复</text> <text class='returns'>张一山</text> 
+         
+        </view>
+        <view class='zhtime'>2015-10-18 02:16</view>
+        <view class='stcon'>请关注小桔房车微信公众号进行预订</view>
+      </view>
+    </view>
+
+    <view class='stars'>
+      <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+      <view class='stright'>
+        <view class='zhshan'>
+           <text>张一山</text> 
+          <view class='xstar'>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+        <view class='zhtime'>2015-10-18 02:16</view>
+        <view class='stcon'>这个房车在哪里预订？</view>
+      </view>
+    </view>
+
+    <view class='stars'>
+      <view class='headphoto'><image src='{{picurl}}/images/zhang1.png'></image></view>
+      <view class='stright'>
+        <view class='zhshan'>
+           <text>张一山</text> 
+          <view class='xstar'>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+            <image src='{{picurl}}/images/star1.png'></image>
+          </view>
+        </view>
+        <view class='zhtime'>2015-10-18 02:16</view>
+        <view class='stcon'>好棒的一次房车旅行</view>
+      </view>
+    </view>
+  </view>

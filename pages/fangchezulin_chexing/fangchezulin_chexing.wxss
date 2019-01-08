@@ -1,0 +1,65 @@
+/* pages/fangchezulin_chexing/fangchezulin_chexing.wxss */
+@import '/pages/rv_lease_chose_route/rv_lease_chose_route';
+.search view icon{
+  margin-right: 12rpx;
+}
+.liecon{background: #fff;padding-bottom: 100rpx;}
+
+
+.travel_tit view{
+  display: inline-block;
+  line-height: 45rpx;
+  width:33%;
+  text-align: center;
+  border-right:1px solid #DDDDDD;
+}
+.travel_tit view:last-child{
+  border-right: none
+}
+.tit_co1 image{
+  width:13rpx;
+  height: 7rpx;
+  vertical-align: middle;
+  margin-left: 13rpx;
+}
+.tra_pays{
+  margin-left: 13rpx;
+
+}
+.tra_pays image{
+  width:13rpx;
+  height: 7rpx;
+}
+.tra_pays image:first-child{
+  transform:rotate(180deg);
+}
+.fang_list{background: #fff;margin-top: 200rpx;padding: 30rpx}
+.fang_left{float: left;}
+.fang_right{float: left;width: 55%}
+.fang_left image{width:291rpx;height: 176rpx;border-radius: 10rpx;margin-right: 20rpx;}
+.fang_box{overflow: hidden;padding-bottom: 40rpx;border-bottom: 1px solid #EFEFEF;margin-bottom: 30rpx;}
+.fang_tit{font-size: 30rpx;margin-bottom: 20rpx;}
+.fang_biao{font-size: 18rpx;color: #fff;}
+.fang_biao text{display: inline-block;padding: 5rpx 10rpx;border-radius: 5rpx;margin-right: 15rpx;background: #CFCFCF;}
+.fang_money{font-size: 28rpx;color:#FFA826;font-weight: bold;margin-top: 50rpx;width: 100%; }
+.fang_money text{float: right;font-size: 24rpx;color: #8A8F9B;font-weight: normal}
+
+.tanchuang{position: absolute;top: 200rpx;background: rgba(0,0,0,0.5);width: 100%;height:1500rpx;z-index: 999}
+.diqu{background: #fff;padding: 30rpx;}
+.duihao{width: 28rpx;height: 20rpx;float: right}
+.active_cho{color: #FFA826}
+.diqu view{line-height: 40rpx;}
+.choose_status_active{
+  color: #FFA826;
+}
+.dibock{
+  display: block;
+}
+.disno{
+  display: none;
+}
+.showrots{
+  transform: rotate(180deg);
+}
+
+

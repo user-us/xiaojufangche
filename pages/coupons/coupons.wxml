@@ -1,0 +1,31 @@
+<!--pages/coupons/coupons.wxml-->
+<view class='coupons_cont' style='background:url("{{picurl}}/images/coupon_ls1.png") no-repeat;background-size:100% 100%;'>
+  <view class='coupon_left'>
+    <text class='coupon_money'>￥<text>166</text></text>
+    <text>满1000可用</text>
+  </view>
+  <view class='coupon_right'>
+    <text>全品类</text>
+    <text>2018.10.26-2018.12.26</text>
+  </view>
+</view>
+<view class='coupons_cont' style='background:url("{{picurl}}/images/coupon_ls1.png") no-repeat;background-size:100% 100%;'>
+  <view class='coupon_left'>
+    <text class='coupon_money'>￥<text>166</text></text>
+    <text>满1000可用</text>
+  </view>
+  <view class='coupon_right'>
+    <text>全品类</text>
+    <text>2018.10.26-2018.12.26</text>
+  </view>
+</view>
+<view class='coupons_cont' style='background:url("{{picurl}}/images/coupon_ls1.png") no-repeat;background-size:100% 100%;'>
+  <view class='coupon_left'>
+    <text class='coupon_money'>￥<text>166</text></text>
+    <text>满1000可用</text>
+  </view>
+  <view class='coupon_right'>
+    <text>全品类</text>
+    <text>2018.10.26-2018.12.26</text>
+  </view>
+</view>

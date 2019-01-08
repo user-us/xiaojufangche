@@ -1,0 +1,137 @@
+/* checkbox未选中时样式 */
+page{
+  height: 100%;
+}
+
+
+checkbox .wx-checkbox-input{
+   border-radius: 20rpx;/* 圆角 */
+   width: 34rpx; /* 背景的宽 */
+   height: 34rpx; /* 背景的高 */
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   background: #FFA826;
+   border:1px solid #FFA826;
+   border-radius: 50%;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  border-radius: 50%;
+  font-size: 36rpx;
+}
+
+.buycar{
+  background: #fff;
+  padding: 0 26rpx;
+}
+.buydl{
+  padding: 40rpx 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.buydl view{
+  display: inline-block;
+}
+.buyimg{
+  width:257rpx;
+  height: 176rpx;
+  padding:0 20rpx;
+}
+.buyimg image{
+  width:257rpx;
+  height: 176rpx;
+}
+.buydl label{
+  float: left;
+  line-height: 176rpx;
+}
+.buyright{
+  float: right;
+  max-width: 345rpx;
+}
+.buytitle{
+  line-height: 42rpx;
+}
+.buytitle text{
+  display: inline-block;
+}
+.btitle{
+  width:230rpx;
+  margin-right: 30rpx;
+  font-size: 30rpx;
+}
+.buymon{
+  float: right;
+  color: #FFA826;
+  font-size: 30rpx;
+}
+
+.buydels{
+  width:34rpx;
+  height: 32rpx;
+  margin-top: 11rpx;
+  float: right;
+}
+.adddel{
+  margin-top: 40rpx;
+}
+.buydl:last-child{
+  border: 0;
+}
+.buyfoot{
+  width:100%;
+  height: 96rpx;
+  line-height: 96rpx;
+  position: fixed;
+  font-size: 30rpx;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+}
+.footsleft{
+  float: right;
+  width: 160rpx;
+}
+.footsleft text{
+  display: block;
+  line-height: 30rpx;
+  text-align: right;
+}
+.footsleft text:first-child{
+  margin-top: 15rpx;
+  font-size: 26rpx;
+  color: #FFA826;
+}
+.footsleft text:last-child{
+  font-size: 22rpx;
+  color: #8A8F9B;
+  margin-top: 5rpx;
+}
+.jie{
+  float: right;
+  width: 216rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  border-radius: 10rpx;
+  margin:0 24rpx;
+  margin-top: 12rpx;
+  text-align: center;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  color: #fff;
+}
+.buyfoot checkbox{
+  margin-left: 26rpx;
+  margin-right: 15rpx;
+}
+.buynull,.buynull image{
+  width:100%;
+  height: 100%;
+}
+
+.jujue_tc{position: fixed;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.3); z-index: 99;}
+.jujue_cont{width: 560rpx;background: #fff;margin: 0 auto;height: 301rpx;border-radius: 20rpx;margin-top: 45%;text-align: center;position: relative;}
+.jujue_title{font-size: 36rpx;display:block;height: 60rpx;line-height: 60rpx;padding-top: 50rpx;font-weight: bold}
+.jujues{ font-size: 30rpx; color: #333333;}
+.btn_jujue{position: absolute;bottom: 0;display: flex;flex-direction: row;width: 100%;height:86rpx;line-height: 86rpx;border-top: 1px solid #E6E6E6; }
+.btn_jujue text{width: 50%;line-height: 86rpx;font-size: 30rpx;}
+.success{color: #fff; background: #FFA826; border-bottom-right-radius: 20rpx;}
+.disno{display: none;}

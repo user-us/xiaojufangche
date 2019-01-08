@@ -1,0 +1,81 @@
+<view class='boxs'>
+  <!--顶部轮播图  -->
+  <swiper autoplay="true" interval='2000' bindchange='handerChange'>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner2.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+  </swiper>
+  <view class='item-num'>{{index}}/3</view>
+  <view class='add_star'>
+    <image catchtap='changeImg' wx:if="{{chimg == false}}" src='{{picurl}}/images/tar_collection.png'></image>
+    <image catchtap='changeImg' wx:if="{{chimg == true}}" src='{{picurl}}/images/shouc1.png'></image>
+  </view>
+  <view class='have_camp'>有营位</view>
+</view>
+<view class='play_tit'>
+  <view class='patit'>旅游营地名称名称</view>
+  <view class='camp_guang'>广西梧州市自驾车旅游营地详细地址</view>
+  <view class='play_address'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+  <view class='play_mon'>
+    <image src='{{picurl}}/images/star1.png'></image>
+    <image src='{{picurl}}/images/star1.png'></image>
+    <image src='{{picurl}}/images/star1.png'></image>
+    <text>1500人去过</text>
+  </view>
+</view>
+<view class='camp_decon'>
+  <view><image src='{{picurl}}/images/camp_dui.png'></image><text>使用性质：充电</text></view>
+  <view><image src='{{picurl}}/images/camp_dui.png'></image><text>地貌类型：山丘</text></view>
+</view>
+<view class='camp_service'>
+  <view class='ser_tit'>提供服务</view>
+  <view class='ser_con'>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_03.jpg'></image></view>
+      <view class='ser_dd'>矿泉水</view>
+    </view>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_05.jpg'></image></view>
+      <view class='ser_dd'>快餐</view>
+    </view>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_07.jpg'></image></view>
+      <view class='ser_dd'>民宿</view>
+    </view>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_09.jpg'></image></view>
+      <view class='ser_dd'>酒店</view>
+    </view>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_11.jpg'></image></view>
+      <view class='ser_dd'>帐篷</view>
+    </view>
+  </view>
+</view>
+<view class='camp_service'>
+  <view class='ser_tit'>提供服务</view>
+  <view class='ser_con'>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_22.jpg'></image></view>
+      <view class='ser_dd'>爬山</view>
+    </view>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_19.jpg'></image></view>
+      <view class='ser_dd'>划船</view>
+    </view>
+    <view class='ser_dl'>
+      <view class='ser_dt'><image src='{{picurl}}/images/dae_21.jpg'></image></view>
+      <view class='ser_dd'>摩天轮</view>
+    </view>
+   
+  </view>
+</view>
+<view class='cam_con' style='padding:0 26rpx; color:#333333; line-height:40rpx;'>
+  今年九月，我原本的欧洲之行，因为同伴的签证问题，一直被搁置。到了中旬以后，我索性将欧洲计划推迟。陪哥哥嫂子去了巴厘岛拍结婚纪念，然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。于是，我们的第四次塑料姐妹之旅，便是我心心念念未解锁的新加坡啦！然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。
+</view>

@@ -1,0 +1,20 @@
+/* pages/personal/personal.wxss */
+@import "../footer/footer";
+
+page{background: #fff;}
+.per_avat{display: flex;flex-direction: row;padding: 60rpx 40rpx}
+.avat_box{width: 117rpx;height: 114rpx;border-radius: 50%;}
+.avat_box image{width: 117rpx;height: 114rpx;border-radius: 50%;}
+.per_info{display: flex;flex-direction: column;padding-top: 10rpx;color: #fff;padding-left: 20rpx;font-size:26rpx; }
+.per_info text:first-child{font-size: 34rpx;font-weight: bold;margin-bottom: 10rpx}
+.member_per{position: absolute;top:80rpx;right: 0; background: #fff;padding-right: 20rpx;border-top-left-radius: 25rpx;border-bottom-left-radius: 25rpx;padding-left: 15rpx;color: #F3B465;font-size: 22rpx;height: 50rpx;line-height: 50rpx;}
+.member_per image{width: 25rpx;height: 24rpx;vertical-align: middle;margin-right: 10rpx;}
+.per_tab{display: flex;flex-direction: row;background: #fff;border-top-left-radius: 20rpx;border-top-right-radius: 20rpx;width: 100%;border-bottom: 15rpx solid #EEEFF1;padding-bottom: 20rpx;}
+.per_tab navigator{display: flex;flex-direction: column;text-align: center;width: 25%}
+.car1{width: 45rpx;margin: 20rpx auto}
+.cont_list{float: left;width: 33.33%;display: flex;flex-direction: column;text-align: center;margin: 20rpx 0;height: 150rpx;}
+.cont_list image{width:55rpx;margin: 30rpx auto}
+.per_cont{border-bottom:15rpx solid #EEEFF1;overflow: hidden }
+.out_login{height: 90rpx;line-height: 90rpx;text-align: center;color: #F24F4F;font-size: 28rpx;border-bottom:15rpx solid #EEEFF1;margin-bottom: 100rpx;}
+
+

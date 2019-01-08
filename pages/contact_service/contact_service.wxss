@@ -1,0 +1,15 @@
+/* pages/contact_service/contact_service.wxss */
+.contact_list{background: #fff;overflow: hidden;margin-top: 15rpx; }
+.sevirce{width: 49rpx;height: 50rpx;margin: 40rpx auto 10rpx auto;}
+.list_left{float: left;width:230rpx;display: flex;flex-direction: column;text-align: center;min-height: 160rpx;border-right: 1px solid #ddd; }
+.list_right{float: left;width: 460rpx;margin-left: 58rpx;display: flex;flex-direction: column;font-size: 24rpx;color: #8A8F9B}
+.tel_fangshi{font-size: 34rpx;color: #333;font-weight: bold;padding-top: 40rpx;margin-bottom: 10rpx;}
+
+
+
+
+
+
+
+
+

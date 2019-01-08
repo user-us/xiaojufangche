@@ -1,0 +1,63 @@
+<view class='tra_posit'>
+  <view class='search'>
+    <view><icon type='search' color='#B7BCC8' size='12'></icon>西藏</view>
+  </view>
+  <view class='travel_tit'>
+    <view class='tit_co1' bindtap='diqu'>车型<image src='{{picurl}}/images/xiala.png' class='{{showView?"showrots":""}}'></image></view>
+    <view class='tit_co2'>价格<view class='tra_pays' style='width:13rpx; height:16rpx; line-height:6rpx;'><image src='{{picurl}}/images/xiala.png'></image><image src='{{picurl}}/images/xiala2.png'></image></view></view>
+    <view class='tit_co2'>座位<view class='tra_pays' style='width:13rpx; height:16rpx; line-height:6rpx;'><image src='{{picurl}}/images/xiala.png'></image><image src='{{picurl}}/images/xiala2.png'></image></view></view>
+  </view>
+  <view class='add_down {{showView?"disbock":"disno"}}'>
+    <block wx:for="{{down}}" wx:for-item="item" wx:key='key'>
+      <view class='down_con {{show==item.id?"choose_status_active":""}}' bindtap='tabsta'  data-id="{{item.id}}"><text>{{item.value}}</text><image class='{{show==item.id?"dibock":"disno"}}' src='/images/reat_dui.png'></image></view>
+    </block>
+  </view>
+</view>
+<view class='fang_list'>
+  <view class='fang_box'>
+    <view class='fang_left'><image src='{{picurl}}/images/xq1.png'></image></view>
+    <view class='fang_right'>
+      <view class='fang_tit'>2018款 格林卡诺 C2款</view>
+      <view class='fang_biao'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+      <view class='fang_money'>￥1800/日均<text>出租1324次</text></view>
+    </view>
+  </view>
+  <view class='fang_box'>
+    <view class='fang_left'><image src='{{picurl}}/images/xq1.png'></image></view>
+    <view class='fang_right'>
+      <view class='fang_tit'>2018款 格林卡诺 C2款</view>
+      <view class='fang_biao'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+      <view class='fang_money'>￥1800/日均<text>出租1324次</text></view>
+    </view>
+  </view>
+  <view class='fang_box'>
+    <view class='fang_left'><image src='{{picurl}}/images/xq1.png'></image></view>
+    <view class='fang_right'>
+      <view class='fang_tit'>2018款 格林卡诺 C2款</view>
+      <view class='fang_biao'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+      <view class='fang_money'>￥1800/日均<text>出租1324次</text></view>
+    </view>
+  </view>
+  <view class='fang_box'>
+    <view class='fang_left'><image src='{{picurl}}/images/xq1.png'></image></view>
+    <view class='fang_right'>
+      <view class='fang_tit'>2018款 格林卡诺 C2款</view>
+      <view class='fang_biao'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+      <view class='fang_money'>￥1800/日均<text>出租1324次</text></view>
+    </view>
+  </view>
+  <view class='fang_box'>
+    <view class='fang_left'><image src='{{picurl}}/images/xq1.png'></image></view>
+    <view class='fang_right'>
+      <view class='fang_tit'>2018款 格林卡诺 C2款</view>
+      <view class='fang_biao'><text>冰箱</text><text>卫生间</text><text>水槽</text></view>
+      <view class='fang_money'>￥1800/日均<text>出租1324次</text></view>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{chexing}}" class='tanchuang'  catchtouchmove='true'>
+  <view class='diqu' bindtap='xuanze'>
+    <view wx:for="{{chedata}}" class='{{choose1 == index ?"active_cho":""}}' bindtap='smallche' data-index="{{index}}">{{item}}<image wx:if="{{choose1 == index}}" src='{{picurl}}/images/duihao_xq.png' mode='widthFix'  class='duihao'></image></view>
+  </view>
+</view>

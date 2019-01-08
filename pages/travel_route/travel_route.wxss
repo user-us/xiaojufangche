@@ -1,0 +1,112 @@
+.tra_posit{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #EAEBED;
+}
+.search{
+  height: 85rpx;
+  line-height: 85rpx;
+  background: #fff;
+  padding:0 30rpx;
+  padding-top: 18rpx;
+  margin-bottom: 20rpx;
+ 
+}
+.search view{
+  height: 62rpx;
+  line-height: 62rpx;
+  text-align: center;
+  background: #F4F4F4;
+  color: #B7BCC8;
+  border-radius: 31rpx;
+}
+.search view icon{
+  margin-right: 12rpx;
+}
+.travel_tit{
+  width:100%;
+  background: #fff;
+  height: 78rpx;
+  line-height: 78rpx;
+  border-bottom: 1px solid #EFEFEF;
+  
+}
+.travel_tit view{
+  display: inline-block;
+  line-height: 45rpx;
+  width:49.5%;
+  text-align: center;
+  font-weight: bold;
+}
+.tit_co1{
+  border-right: 1px solid #DDDDDD;
+}
+.tit_co1 image{
+  width:13rpx;
+  height: 7rpx;
+  vertical-align: middle;
+  margin-left: 13rpx;
+}
+.tra_pays{
+  margin-left: 13rpx;
+
+}
+.tra_pays image{
+  width:13rpx;
+  height: 7rpx;
+}
+.tra_pays image:first-child{
+  transform:rotate(180deg);
+}
+.travel_con{
+  background: #fff;
+  padding: 0 26rpx;
+  margin-top: 183rpx;
+}
+.travel_dl{
+  padding: 40rpx 0;
+  border-bottom: 1px solid #EFEFEF;
+  overflow: hidden;
+
+  
+}
+.travel_dt{
+  width:291rpx;
+  height: 176rpx;
+  margin-right: 27rpx;
+  float: left;
+}
+.travel_dt image{
+  width:291rpx;
+  height: 176rpx;
+  border-radius: 10rpx;
+}
+.travel_dd{
+  float: left;
+}
+.tradd_tit{
+  width:371rpx;
+  font-size: 30rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.tradd_mon{
+  font-size: 28rpx;
+  color: #FFA826; 
+  margin-top: 18rpx;
+}
+.tradd_go{
+  font-size: 24rpx;
+  color: #8A8F9B;
+  margin-top: 10rpx;
+}
+.tradd_go image{
+  width:25rpx;
+  height: 24rpx;
+  margin-left: 10rpx;
+  float: right;
+}

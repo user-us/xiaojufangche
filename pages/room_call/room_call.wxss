@@ -1,0 +1,71 @@
+page{
+  height: 100%;
+}
+.call_con{
+  height: 100%;
+  background: #fff;
+}
+.call_res{
+  margin: 0;
+  color: #8A8F9B;
+  padding: 0 26rpx;
+  background: #EEEFF1;
+  font-size: 28rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+}
+.call_vie{
+  line-height: 86rpx;
+  height: 86rpx;
+  margin: 0 47rpx;
+  color: #333333;
+  border-bottom: 1px solid #EFEFEF;
+  font-size: 28rpx;
+}
+.call_con view checkbox{
+   margin-right: 20rpx;
+}
+checkbox .wx-checkbox-input{
+border-radius: 50%;
+height:36rpx;
+width: 36rpx;
+margin-top: -4rpx;
+margin-right: 0;
+/* 自定义样式.... */
+}
+checkbox .wx-checkbox-input{
+   border-radius: 20rpx;/* 圆角 */
+   width: 36rpx; /* 背景的宽 */
+   height: 36rpx; /* 背景的高 */
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   background: #FFA826;
+   border:1px solid #FFA826;
+   border-radius: 50%;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  border-radius: 50%;
+  font-size: 36rpx;
+}
+.is_checked {
+   color:#FFA826;
+}
+.call_con button{
+  width:606rpx;
+  height: 83rpx;
+  line-height: 83rpx;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  color: #fff;
+  margin-top: 87rpx;
+}
+.jujue_tc{position: fixed;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.3)}
+.jujue_cont{width: 570rpx;background: #fff;margin: 0 auto;height: 301rpx;border-radius: 20rpx;margin-top: 45%;text-align: center;position: relative;}
+.jujue_title{font-size: 36rpx;display:block;height: 60rpx;line-height: 60rpx;padding-top: 50rpx;font-weight: bold;margin-bottom: 15rpx;}
+.jujues{ font-size: 30rpx; color: #333333;}
+.btn_jujue{position: absolute;bottom: 0;display: flex;flex-direction: row;width: 100%;height:86rpx;line-height: 86rpx;border-top: 1px solid #E6E6E6; }
+.btn_jujue text{width: 50%;line-height: 86rpx;font-size: 30rpx;}
+.success{color: #fff; background: #FFA826; border-bottom-right-radius: 20rpx;}
+.disno{
+  display: none;
+}

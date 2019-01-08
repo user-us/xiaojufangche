@@ -1,0 +1,12 @@
+<!--pages/per_info/per_info.wxml-->
+<view class='info_cont'>
+  <view class='write_input'><label>收货人</label><input type='text' placeholder='张三三'></input></view>
+  <view class='write_input'><label>联系电话</label><input type='text' placeholder='18310008003'></input></view>
+  <view class='write_input'><label>所在地区</label><input type='text' placeholder='北京北京市丰台区东铁匠营街道'></input><image src='/images/jiantou1.png' class='right_jt'></image></view>
+  <view class='write_input'><label>详细地址</label><textarea placeholder='请输入详细地址信息、如道路，门牌号、小区、楼栋号、单元室等' placeholder-class='textarea1'></textarea></view>
+  <view class="write_input">
+    <label>设置默认地址</label>
+    <switch checked bindchange="switch1Change" />
+  </view>
+</view>
+<view class='wancheng'>保存</view>

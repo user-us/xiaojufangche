@@ -1,0 +1,64 @@
+<view class='buycar'>
+  <view class='buydl'>
+    <label>
+      <checkbox  checked="{{checkboxStatus}}" color='#fff'/>
+    </label>
+    <view class='buyimg'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='buyright'>
+      <view class='buytitle'><text class='btitle'>帐篷户外3-4人全 自动加厚防雨</text><text class='buymon'>￥166</text></view>
+      <view class='adddel'>
+          <view class="stepper">
+            <!-- 减号 -->
+            <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+            <!-- 数值 -->
+            <input type="number" bindchange="bindManual" value="{{num}}" />
+            <!-- 加号 -->
+            <text class="normal" bindtap="bindPlus">+</text>
+        </view>
+        <image src='{{picurl}}/images/dels.png' class='buydels' bindtap='del'></image>
+      </view>
+    </view>
+  </view>
+  <view class='buydl'>
+    <label>
+      <checkbox  checked="{{checkboxStatus}}" color='#fff'/>
+    </label>
+    <view class='buyimg'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='buyright'>
+      <view class='buytitle'><text class='btitle'>帐篷户外3-4人全 自动加厚防雨</text><text class='buymon'>￥166</text></view>
+      <view class='adddel'>
+          <view class="stepper">
+            <!-- 减号 -->
+            <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+            <!-- 数值 -->
+            <input type="number" bindchange="bindManual" value="{{num}}" />
+            <!-- 加号 -->
+            <text class="normal" bindtap="bindPlus">+</text>
+        </view>
+        <image src='{{picurl}}/images/dels.png' class='buydels' bindtap='del'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='buyfoot'>
+  <checkbox  checked="{{checkboxStatus}}" bindtap='allchecked' color='#fff'/>全选
+  
+  <view class='jie'>去结算</view>
+  <view class='footsleft'>
+    <text>合计：￥166</text>
+    <text>共2项</text>
+  </view>
+</view>
+
+<view class='{{show?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>确认删除</text>
+    <text class='jujues'>确定要删除2个产品吗？</text>
+    <view class='btn_jujue'>
+      <text bindtap='close'>取消</text>
+      <text class='success'>确定</text>
+    </view>
+  </view>
+</view>
+<!-- <view class='buynull'><image src='{{picurl}}/images/buynull.jpg'></image></view> -->

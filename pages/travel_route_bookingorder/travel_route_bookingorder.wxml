@@ -1,0 +1,107 @@
+<view class='book_dl'>
+  <view class='book_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+  <view class='book_dd'>
+    <view class='book_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+    <view class='book_mon'>￥5800/日均</view>
+  </view>
+</view>
+<view class='book_con'>
+  <view class='go_times'>出行时间</view>
+  <view class='cho_time'>请选择出行时间<image src='{{picurl}}/images/book_right.png'></image></view>
+  <view class='cho_ling'>是否需要领队<checkbox  checked="{{checkboxStatus}}" color='#fff'/></view>
+  <view class='go_times'>途径营地 <image class='book_right' src='{{picurl}}/images/book_right.png'></image></view>
+  <view class='tutit'>广西梧州市自驾车旅游营地</view>
+  <view class='tuadd'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+  <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+  <view class='addfu' bindtap='add1'><image src='{{picurl}}/images/addfu.png'></image>添加附加项目</view>
+  <view class='tutit'>广西梧州市自驾车旅游营地</view>
+  <view class='tuadd'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+  <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view> 
+  <view class='play_xiangmu'>游玩项目<image src='{{picurl}}/images/book_right.png'></image></view>
+  <view class='addfu' bindtap='addplay'><image src='{{picurl}}/images/addfu.png'></image>添加游玩项目</view>
+  <view class='go_times'>车型选择<image class='book_right' src='{{picurl}}/images/book_right.png'></image></view>
+  <view class='car_dls'>
+    <view class='car_dts'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='car_dds'>
+      <view class='car_dtit'>2018款 格林卡诺 C2款</view>
+      <view class='car_dmon'>￥1800/日均</view>
+      <view class='car_numb'>出租1324次</view>
+    </view>
+  </view>
+  <view class='book_additional'>
+    <view class='go_times'>额外物品</view>
+    <view class='book_outdoor'>
+      <text class='yizi'>户外椅子</text><text class='yizimon'>{{yizis}}元</text>
+      <view class="stepper">
+            <!-- 减号 -->
+            <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+            <!-- 数值 -->
+            <input type="number" bindchange="bindManual" value="{{num}}" />
+            <!-- 加号 -->
+            <text class="normal" bindtap="bindPlus">+</text>
+        </view>
+    </view>
+    <view class='book_outdoor' style='margin-top:20rpx;'>
+      <text class='yizi'>户外帐篷</text><text class='yizimon'>{{zhangpengs}}元</text>
+      <view class="stepper">
+            <!-- 减号 -->
+            <text class="{{minusStatus1}}" bindtap="bindMinus1">-</text>
+            <!-- 数值 -->
+            <input type="number" bindchange="bindManual1" value="{{nums}}" />
+            <!-- 加号 -->
+            <text class="normal" bindtap="bindPlus1">+</text>
+        </view>
+    </view>
+    <view class='addfu'><image src='{{picurl}}/images/addfu.png'></image>继续添加</view>
+    <view class='go_times'>保险类型</view>  
+    <view class='insurance'>1000万人身意外险<image class='book_right' src='{{picurl}}/images/book_right.png'></image></view>
+  </view>
+  <view class='booking_all'>
+    <view class='book_allvi'><text>旅游线路</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>途径营地</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>游玩项目</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>此款车辆每日单价为</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>基础服务费</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>经过计算您的用车时长为</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>保险费用</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>额外物品</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>房车押金</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>违章押金</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>其他费用</text><text>￥5800</text></view>
+    <view class='book_allvi'><text>合计金额</text><text>￥5800</text></view>
+  </view>
+  <view class='book_pay'>立即支付</view>
+</view>
+
+<view class='{{show?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>添加附加项目</text>
+    <view class='jujues'>
+      <checkbox-group name="checkbox" class="check">
+        <view bindtap='clicks' wx:for="{{checks}}" wx:key="{{checks}}" wx:for-index="index" data-index="{{index}}" class='call_vie {{item.checked?"is_checked":""}}'>
+          <view class='ch_left'><checkbox value="{{item.name}}" data-val="{{item.name}}" checked='{{item.checked}}' size='10' color='#fff'/><text>{{item.name}}</text></view><text>{{item.mon}}</text>
+        </view>
+      </checkbox-group>
+    </view>
+    <view class='btn_jujue'>
+      <text bindtap='close'>取消</text>
+      <text class='success'>确定</text>
+    </view>
+  </view>
+</view>
+<view class='{{shows?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>添加游玩项目</text>
+    <view class='jujues'>
+      <checkbox-group name="checkbox" class="check">
+        <view bindtap='clickes' wx:for="{{checkes}}" wx:key="{{checkes}}" wx:for-index="index" data-index="{{index}}" class='call_vie {{item.checked?"is_checked":""}}'>
+          <view class='ch_left'><checkbox value="{{item.name}}" data-val="{{item.name}}" checked='{{item.checked}}' size='10' color='#fff'/><text>{{item.name}}</text></view><text>{{item.mon}}</text>
+        </view>
+      </checkbox-group>
+    </view>
+    <view class='btn_jujue'>
+      <text bindtap='close'>取消</text>
+      <text class='success'>确定</text>
+    </view>
+  </view>
+</view>

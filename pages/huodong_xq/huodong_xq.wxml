@@ -1,0 +1,50 @@
+<!--pages/huodong_xq/huodong_xq.wxml-->
+<view class='huodong_xq'>
+  <view class='top_one'>
+    <image src='{{picurl}}/images/cont1.png'></image>
+    <view class='huo_info'>北京九天八晚房车自驾游旅行团
+      <view class='huo_address'><image src='{{picurl}}/images/dizhi.png' class='small_icon'></image>北京</view>
+    </view>
+    <view class='look_num'>1324浏览 · 158评论 <text>2018.10.23  16:40</text></view>
+    <view class='huodong_juti'>
+      <view class='huodong_list'><image src='{{picurl}}/images/duihao_xq.png'></image>出行时间：7月</view>
+      <view class='huodong_list'><image src='{{picurl}}/images/duihao_xq.png'></image>行程天数：5天</view>
+      <view class='huodong_list'><image src='{{picurl}}/images/duihao_xq.png'></image>房车类型：自行式</view>
+      <view class='huodong_list'><image src='{{picurl}}/images/duihao_xq.png'></image>与谁出行：朋友</view>
+      <view class='huodong_list'><image src='{{picurl}}/images/duihao_xq.png'></image>结束时间：2018-11-07</view>
+    </view>
+  </view>
+  <view class='center_xq'>
+    <view>今年九月，我原本的欧洲之行，因为同伴的签证问题，一直被搁置。到了中旬以后，我索性将欧洲计划推迟。陪哥哥嫂子去了巴厘岛拍结婚纪念，然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。于是，我们的第四次塑料姐妹之旅，便是我心心念念未解锁的新加坡啦！然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。</view>
+    <view style='text-align:center'><image src='{{picurl}}/images/huod2.png'></image></view>
+    <view>今年九月，我原本的欧洲之行，因为同伴的签证问题，一直被搁置。到了中旬以后，我索性将欧洲计划推迟。陪哥哥嫂子去了巴厘岛拍结婚纪念，然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。于是，我们的第四次塑料姐妹之旅，便是我心心念念未解锁的新加坡啦！然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。</view>
+    <view style='text-align:center'><image src='{{picurl}}/images/huod2.png'></image></view>
+  </view>
+  <view class='pl_box'>
+    <view class='pl_tit'>用户评论</view>
+    <view class='pl_box1'>
+      <view class='pl_left'>
+        <image src='{{picurl}}/images/avatar_per.png'></image>
+      </view>
+      <view class='pl_right'>
+        <view class='pl_name'>张一山</view>
+        <view class='pl_time'>2015-10-18 02:16</view>
+        <view class='pl_cont'>这个房车在哪里预订？</view>
+      </view>
+    </view>
+    <view class='pl_box1'>
+      <view class='pl_left'>
+        <image src='{{picurl}}/images/avatar_per.png'></image>
+      </view>
+      <view class='pl_right'>
+        <view class='pl_name'>小桔房车 <text>回复</text> 张一山</view>
+        <view class='pl_time'>2015-10-18 02:16</view>
+        <view class='pl_cont'>这个房车在哪里预订？</view>
+      </view>
+    </view>
+    <view class='write_pl'><input type='text' placeholder='说点什么吧...'></input><text>发送</text></view>
+  </view>
+</view>
+<!-- <view class='lingqu_btn'></view> -->
+<view  class='lingqu_btn' wx:if="{{status ==1}}">立即领取</view>
+<view  class='lingqu_btn lingqu_btn1' wx:if="{{status !=1}}">活动已结束</view>

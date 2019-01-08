@@ -1,0 +1,91 @@
+<view class='boxs'>
+  <!--顶部轮播图  -->
+  <swiper autoplay="true" interval='2000' bindchange='handerChange'>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner2.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+  </swiper>
+  <view class='item-num'>{{index}}/3</view>
+  <view class='add_star'>
+    <image catchtap='changeImg' wx:if="{{chimg == false}}" src='{{picurl}}/images/tar_collection.png'></image>
+    <image catchtap='changeImg' wx:if="{{chimg == true}}" src='{{picurl}}/images/shouc1.png'></image>
+  </view>
+</view>
+<view class='de_tit'>
+  <view class='de_ts'>2018款 格林卡诺</view>
+  <view class='de_mons'><text class='de_mon'>￥5800/日均</text><image src='{{picurl}}/images/marks.png'></image><text class='yamon'>押金提示</text><text class='ties'>出租1324次</text></view>
+</view>
+<view class='carde_con'>
+  <view class='con1' style='background:#fff;padding:50rpx 26rpx; line-height:50rpx; margin-bottom:20rpx; color:#333;'>
+    <view>这款时尚有趣的房车拥有齐全的生活设施并且在外观上看是一件精美绝伦的艺术作品。非常适合一对情侣或者两个朋友一起来趟澳大利亚大冒险！ 
+    基本租金包含：</view> 
+    <view>1.无限里程</view>
+    <view>2.餐具和炊具</view>
+    <view>3.床品</view>
+    <view>4.3000澳元自付额的保障</view>
+    <view>5.道路救援</view>
+    <view>6.消费税</view>
+    </view>
+    <view class='car_information'>
+      <view class='infor_tit'>车辆基础信息</view>
+      <view class='infor_con'>
+        <text>车牌号：津Q 8579A</text>
+        <text>车牌注册时间：2017.05.03</text>
+        <text>车牌类型：2.4L 汽油</text>
+        <text>使用性质：非运营</text>
+        <view>准驾要求：驾龄超过3年</view>
+      </view>
+    </view>
+    <view class='car_information'>
+      <view class='infor_tit'>车辆配置</view>
+      <view class='infor_con'>
+        <text>车龄：9+</text>
+        <text>车款/车型：Toyota Estima</text>
+        <text>发动机：2.4L 汽油</text>
+        <text>汽车变速箱：自动挡</text>
+        <text>燃油类型：汽油</text>
+        <text>燃油消耗率：每100公里12升</text>
+      </view>
+    </view>
+    <view class='car_information'>
+      <view class='infor_tit'>车辆配置</view>
+      <view class='ser_con'>
+        <view class='ser_dl'>
+          <view class='ser_dt'><image src='{{picurl}}/images/zulis_03.jpg'></image></view>
+          <view class='ser_dd'>水槽</view>
+        </view>
+        <view class='ser_dl'>
+          <view class='ser_dt'><image src='{{picurl}}/images/zulis_05.jpg'></image></view>
+          <view class='ser_dd'>冰箱</view>
+        </view>
+        <view class='ser_dl'>
+          <view class='ser_dt'><image src='{{picurl}}/images/zulis_07.jpg'></image></view>
+          <view class='ser_dd'>卫生间</view>
+        </view>
+        <view class='ser_dl'>
+          <view class='ser_dt'><image src='{{picurl}}/images/zulis_09.jpg'></image></view>
+          <view class='ser_dd'>沐浴</view>
+        </view>
+        <view class='ser_dl'>
+          <view class='ser_dt'><image src='{{picurl}}/images/zulis_11.jpg'></image></view>
+          <view class='ser_dd'>空调</view>
+        </view>
+        <view class='ser_dl'>
+          <view class='ser_dt'><image src='{{picurl}}/images/zulis_19.jpg'></image></view>
+          <view class='ser_dd'>餐饮间</view>
+        </view>
+        <view class='ser_dl'>
+          <view class='ser_dt'><image src='{{picurl}}/images/zulis_20.jpg'></image></view>
+          <view class='ser_dd'>烤箱</view>
+        </view>
+      </view>
+    </view>
+</view>
+
+<view class='determine'>确定</view>

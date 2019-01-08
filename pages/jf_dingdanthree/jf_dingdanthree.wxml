@@ -1,0 +1,39 @@
+<template name="item">
+  <view class='fah'>
+  <text class='maijia'>{{forbar.xtitle}}</text>
+  <text class='sudi'>{{forbar.expressage}}</text>
+</view>
+<view class='address'>
+  <image src='{{forbar.picurl}}/images/a.jpg'></image>
+  <view class='adds'>
+    <text>收货人：{{forbar.consignee}}</text>
+    <text>{{forbar.address}}</text>
+  </view>
+</view>
+<view class='dingdan'>
+  <view class='con_dl'>
+    <view class='con_left'><image src='{{forbar.picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>{{forbar.btltle}}</view>
+      <text class='numb'>{{forbar.numb}}</text>
+      <text class='yig'>共{{forbar.all}}件商品  合计:{{forbar.zong}}</text>
+    </view>
+  </view>
+  <view class='zonge'>
+    <view><text>商品总额</text><text class='jifena'>{{forbar.zong}}</text></view>
+    <view><text>运费</text><text class='jifena'>￥{{forbar.money}}</text></view>
+  </view>
+  <view class='shiji'><text>实际付款：<text class='ji166'>{{forbar.zong}}</text></text></view>
+
+</view>
+<view class='xiadan'>
+  <view><text class='text1'>订单编号</text><text class='xi_right'>{{forbar.serial}}</text></view>
+  <view><text class='text1'>下单时间</text><text class='xi_right'>{{forbar.xiatime}}</text></view>
+  <view wx:if="{{forbar.duifang !=''}}"><text class='text1'>{{forbar.duifang}}</text><text class='xi_right'>{{forbar.way}}</text></view>
+  <view wx:if="{{forbar.duifang !=''}}"><text class='text1'>{{forbar.duitimes}}</text><text class='xi_right'>{{forbar.duitime}}</text></view>
+  <view><text class='text1'>配送方式</text><text class='xi_right'>顺丰速递</text></view>
+</view>
+<view class='foot' wx:if="{{forbar.xtitle=='卖家已发货'}}"><text>确认收货</text></view>
+<view class='foot' wx:if="{{forbar.evaluate=='评价'}}"><text>评价</text></view>
+<view class='foot' wx:if="{{forbar.evaluate=='去支付'}}"><text>去支付</text></view>
+</template>

@@ -1,0 +1,15 @@
+/* pages/fangche_answer/answer_xq.wxss */
+page{background: #fff;}
+.xq_title{font-size: 32rpx;color: #101010;height: 94rpx;line-height: 94rpx;border-bottom: 1px solid #E6E6E6}
+.xq_cont{padding: 0 30rpx;}
+.xq_cont1{margin: 20rpx 0;line-height: 40rpx;font-size: 26rpx;}
+
+
+
+
+
+
+
+
+
+

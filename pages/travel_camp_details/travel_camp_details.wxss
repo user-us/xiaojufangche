@@ -1,0 +1,90 @@
+@import '/pages/travel_route_details_play/travel_route_details_play';
+page{
+  background: #F3F4F8;
+}
+.play_tit{
+  background: #fff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.camp_guang{
+  font-size: 24rpx;
+  color: #8A8F9B; 
+  margin-top: 15rpx;
+}
+.play_mon image{
+  width: 25rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+.play_mon{
+  border-bottom: 1px solid #EFEFEF;
+  padding-bottom: 30rpx;
+}
+.have_camp{
+  width:120rpx;
+  height: 51rpx;
+  line-height: 51rpx;
+  border-bottom-right-radius:26rpx; 
+  border-top-right-radius:26rpx; 
+  position: absolute;
+  top: 40rpx;
+  left: 0;
+  background: #FFA826;
+  padding-left: 18rpx;
+  color: #fff;
+}
+.camp_decon{
+  background: #fff;
+  line-height: 114rpx;
+  padding: 0 26px;
+  margin-bottom: 20rpx;
+
+}
+.camp_decon view{
+  display: inline-block;
+  color: #FFA826;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  margin-right: 60rpx;
+}
+.camp_decon view image{
+  width:24rpx;
+  height: 24rpx;
+  margin-right: 8rpx;
+  vertical-align: middle;
+}
+.camp_service{
+  background: #fff;
+  padding: 0 26rpx;
+  margin-bottom: 20rpx;
+}
+.ser_tit{
+  line-height: 110rpx;
+  color: #858994;
+  font-size: 24rpx;
+}
+.ser_dl{
+  width:20%;
+  display: inline-block;
+  margin-bottom: 40rpx;
+}
+.ser_dt{
+  width:100%;
+  text-align: center;
+}
+.ser_dt image{
+  width:50rpx;
+  height: 50rpx;
+}
+.ser_dd{
+  width:100%;
+  text-align: center;
+  color: #555555;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.cam_con{
+  background: #fff;
+  padding: 30rpx 0; 
+}

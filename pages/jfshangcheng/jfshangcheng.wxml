@@ -1,0 +1,33 @@
+<view class='head'>
+  <image src='{{picurl}}/images/jfsx.png'></image>
+</view>
+<view class='dui'>
+  <view class='jf'><image src='{{picurl}}/images/jf.png'></image>积分<text>1208</text></view>
+  <view class='jfs'><image src='{{picurl}}/images/jlu.png'></image>兑换记录</view>
+</view>
+<view class='jfcon'>
+  <view class='condl'>
+    <view class='con_dl'>
+      <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+      <view class='con_right'>
+        <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+        <view class='zhright'>166积分<text>187人兑换</text></view>
+      </view>
+    </view>
+    <view class='con_dl'>
+      <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+      <view class='con_right'>
+        <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+        <view class='zhright'>166积分<text>187人兑换</text></view>
+      </view>
+    </view>
+    <view class='con_dl'>
+      <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+      <view class='con_right'>
+        <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+        <view class='zhright'>166积分<text>187人兑换</text></view>
+      </view>
+    </view>
+    
+  </view>
+</view>

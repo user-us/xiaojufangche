@@ -1,0 +1,165 @@
+page{background: #fff;}
+.top_img{width:642rpx;height: 67rpx; margin-top: 40rpx;}
+.time_top{width: 100%;height: 261rpx;text-align: center}
+.time_cont{background: #fff;width: 637rpx;margin: 0 auto;margin-top: -100rpx;padding: 30rpx;border-radius: 10rpx;}
+.qu_didian{font-size: 24rpx;color: #858994;}
+.wancheng{  background: linear-gradient(#FFCA31, #FDA823);width: 606rpx;height: 83rpx;line-height: 83rpx;text-align: center;margin: 0 auto;color: #fff;font-size: 32rpx;font-weight: bold;margin-top: 30rpx; border-radius: 10rpx;}
+.xinxi_names{
+  width:50%;
+  display: inline-block;
+}
+.xinxi_na1{
+  font-size: 24rpx;
+  color: #858994;
+}
+.xinxi_nacon{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  font-weight: bold;
+}
+.go_times{
+  line-height: 90rpx;
+  height: 100rpx;
+  font-size: 24rpx;
+  color: #858994;
+}
+.insurance{
+  line-height: 30rpx;
+  padding-bottom: 45rpx;
+  border-bottom: 1px solid #DDDDDD;
+  font-weight: bold;
+}
+.book_right{
+  width:12rpx;
+  height: 22rpx;
+  float: right;
+}
+.booktop{
+  margin-top: 36rpx;
+}
+.car_dls{
+  overflow: hidden;
+  padding-bottom: 40rpx;
+  border-bottom: 1px solid #DDDDDD;
+}
+.car_dts{
+  width: 207rpx;
+  height: 123rpx;
+  margin-right: 27rpx;
+  float: left;
+}
+.car_dts image{
+  width:207rpx;
+  height: 123rpx;
+} 
+.car_dds{
+  float: left;
+  width: 400rpx;
+}
+.car_dtit{
+  font-size: 30rpx;
+}
+.car_dmon{
+  font-size: 28rpx;
+  color: #FFA826;
+  height: 52rpx;
+  line-height: 52rpx;
+  margin-top: 46rpx;
+}
+.car_numb{
+  font-size: 24rpx;
+  color: #8A8F9B;
+  float: right;
+}
+.book_outdoor{
+  line-height: 60rpx;
+  height:60rpx;
+}
+.book_additional .addfu{
+  margin-bottom: 0;
+}
+.yizi{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.yizimon{
+  font-size: 24rpx;
+  color: #878787;
+}
+.stepper {
+	width: 208rpx;
+	height: 60rpx;
+	/*给主容器设一个边框*/
+	border: 1px solid #E6E6E6;
+	border-radius: 10rpx;
+	margin:0 auto;
+  margin-right: 0;
+  float: right;
+  color: #878787;
+}
+/*加号和减号*/
+.stepper text {
+	width: 58rpx;
+	line-height: 60rpx;
+	text-align: center;
+	float: left;
+}
+ 
+/*数值*/
+.stepper input {
+	width: 88rpx;
+	height: 60rpx;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30rpx;
+	/*给中间的input设置左右边框即可*/
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+}
+ 
+/*普通样式*/
+.stepper .normal{
+  color: #878787;
+}
+.addfu{
+  /* line-height: 87rpx;
+  height: 87rpx; */
+  padding-bottom: 50rpx;  
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #FFA826;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 20rpx;
+}
+.addfu image{
+  width:28rpx;
+  height: 28rpx;
+  margin-right: 17rpx;
+}
+.booking_all{
+  padding-top: 40rpx;
+}
+.book_allvi{
+  line-height: 60rpx;
+}
+.book_allvi text:first-child{
+  font-size: 24rpx;
+  color: #333;
+}
+.book_allvi text:last-child{
+  font-size: 26rpx;
+  color: #333;
+  float: right;
+}
+.booking_all .book_allvi:last-child text:last-child{
+  color: #FFA826;
+}
+.time_cont{
+  padding-bottom: 0;
+}
+.wancheng{
+  margin-top: 60rpx;
+  margin-bottom: 40rpx;
+}

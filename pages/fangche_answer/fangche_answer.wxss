@@ -1,0 +1,16 @@
+/* pages/fangche_answer/fangche_answer.wxss */
+page{background: #fff;}
+.search{background: #F4F4F4;border-radius: 31rpx;width: 693rpx;height: 62rpx;line-height: 62rpx;margin: 0 auto;text-align: center;color: #B7BCC8;font-size: 24rpx;}
+.search icon{margin-right: 10rpx;}
+.answer_cont{margin-top: 20rpx;border-top: 20rpx solid #EEEFF1;padding: 30rpx;}
+.wen_cont .wen_a{width: 36rpx;height: 36rpx;color: #fff;background:#4681F7;display: inline-block;text-align: center;line-height: 36rpx; margin-right:20rpx; border-radius: 4rpx;font-size:28rpx;}
+.wen_cont text{font-size: 32rpx;color: #101010}
+.wen_cont{margin-bottom: 30rpx;}
+.an_cont{font-size: 26rpx;color: #858994;}
+.da_a{width: 36rpx;height: 36rpx;line-height: 36rpx;text-align: center;color: #fff;background:#FDC348;margin-right: 20rpx; border-radius: 4rpx;font-size: 28rpx;}
+.an_cont text{float: left;}
+.an_cont text:last-child{width: 630rpx;}
+.answer_list{overflow: hidden;border-bottom: 1px solid #E6E6E6;padding-bottom: 50rpx;padding-top: 30rpx;}
+
+
+

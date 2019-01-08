@@ -1,0 +1,48 @@
+<view class='search'>
+  <view><icon type='search' color='#B7BCC8' size='12'></icon>格林卡诺</view>
+</view>
+<view class='liecon'>
+  <navigator class='con_dl' url='/pages/zulin_xiangqing/zulin_xiangqing' hover-class="none">
+    <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+      <view class='money_list'>￥166</view>
+      <view class='zhright'>187人付款<text wx:if="{{status != 1}}">已加入</text><text class='{{status == 1?"join":"disno"}}'>加入清单</text></view>
+    </view>
+  </navigator> 
+  <view class='con_dl'>
+    <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+      <view class='money_list'>￥166</view>
+      <view class='zhright'>187人付款<text wx:if="{{status != 1}}">已加入</text><text class='{{status == 1?"join":"disno"}}'>加入清单</text></view>
+    </view>
+  </view>
+  <view class='con_dl'>
+    <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+      <view class='money_list'>￥166</view>
+      <view class='zhright'>187人付款<text wx:if="{{status != 1}}">已加入</text><text class='{{status == 1?"join":"disno"}}'>加入清单</text></view>
+    </view>
+  </view>  
+  <view class='con_dl'>
+    <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+      <view class='money_list'>￥166</view>
+      <view class='zhright'>187人付款<text wx:if="{{status != 1}}">已加入</text><text class='{{status == 1?"join":"disno"}}'>加入清单</text></view>
+    </view>
+  </view> 
+  <view class='con_dl'>
+    <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='con_right'>
+      <view class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</view>
+      <view class='money_list'>￥166</view>
+      <view class='zhright'>187人付款<text wx:if="{{status != 1}}">已加入</text><text class='{{status == 1?"join":"disno"}}'>加入清单</text></view>
+    </view>
+  </view> 
+</view>
+
+<view class='lingqu_btn'>确定</view>
+

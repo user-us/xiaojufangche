@@ -1,0 +1,20 @@
+
+radio .wx-radio-input{
+  border-radius: 50%;
+  height:34rpx;
+  width: 34rpx;
+  margin-top: -4rpx;
+}
+radio .wx-radio-input.wx-radio-input-checked::before{
+  background-color: #FFA826;
+  border: 1rpx solid #FFA826;
+  border-radius: 50%;
+}
+.radio-group{background: #fff;padding: 40rpx 40rpx 10rpx 40rpx;}
+.school_address{text-indent:50rpx;border-bottom: 1px solid #EFEFEF;margin-bottom: 20rpx;padding-bottom: 20rpx;font-size: 28rpx;color: #8A8F9B }
+.radio{width: 100%;margin-bottom: 20rpx;font-size: 28rpx;color: #333;display: block}
+.radio_active{color: #FFA826;}
+.radio:last-child .school_address{border-bottom: 0}
+.section{background: #fff;height: 92rpx;line-height: 92rpx;padding-left: 30rpx;}
+.dati_cont{font-size: 34rpx;color: #000;line-height: 40rpx;}
+.dati_view{padding: 40rpx;background: #fff;}

@@ -1,0 +1,10 @@
+<import src="../footer/footer.wxml"/>
+
+<view class='dingdan_box'>
+  <view class='dingdan_list'><image src="{{picurl}}/images/car1.png"></image>租车订单 <image src=''></image><image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image></view>
+  <view class='dingdan_list'><image src="{{picurl}}/images/ding_line.png" class='zuche'></image>线路订单 <image src=''></image><image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image></view>
+  <view class='dingdan_list'><image src="{{picurl}}/images/xiaoju1.png"></image>商城订单 <image src=''></image><image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image></view>
+  <view class='dingdan_list'><image src="{{picurl}}/images/ding_jifen.png"></image>积分订单 <image src=''></image><image src='{{picurl}}/images/jiantou1.png' class='right_jt'></image></view>
+</view>
+
+<template is="footer" data="{{datas}}"/>

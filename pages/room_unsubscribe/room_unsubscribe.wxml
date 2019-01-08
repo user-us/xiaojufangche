@@ -1,0 +1,2 @@
+<import src="/pages/room_obmodule/room_obmodule"/>
+<template is="room_obligation" data="{{...room_ding}}"/>

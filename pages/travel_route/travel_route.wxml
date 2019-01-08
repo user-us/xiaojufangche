@@ -1,0 +1,72 @@
+<view class='tra_posit'>
+  <view class='search'>
+    <view><icon type='search' color='#B7BCC8' size='12'></icon>西藏</view>
+  </view>
+  <view class='travel_tit'>
+    <view class='tit_co1'>地区<image src='{{picurl}}/images/xiala.png'></image></view>
+    <view class='tit_co2'>价格<view class='tra_pays' style='width:13rpx; height:16rpx; line-height:6rpx;'><image src='{{picurl}}/images/xiala.png'></image><image src='{{picurl}}/images/xiala2.png'></image></view></view>
+  </view>
+</view>
+
+<view class='travel_con'>
+  <view class='travel_dl'>
+    <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='travel_dd'>
+      <view class='tradd_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='tradd_mon'>￥5800/日均</view>
+      <view class='tradd_go'>1580人去过 
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='travel_dl'>
+    <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='travel_dd'>
+      <view class='tradd_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='tradd_mon'>￥5800/日均</view>
+      <view class='tradd_go'>1580人去过 
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='travel_dl'>
+    <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='travel_dd'>
+      <view class='tradd_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='tradd_mon'>￥5800/日均</view>
+      <view class='tradd_go'>1580人去过 
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='travel_dl'>
+    <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='travel_dd'>
+      <view class='tradd_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='tradd_mon'>￥5800/日均</view>
+      <view class='tradd_go'>1580人去过 
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='travel_dl'>
+    <view class='travel_dt'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='travel_dd'>
+      <view class='tradd_tit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='tradd_mon'>￥5800/日均</view>
+      <view class='tradd_go'>1580人去过 
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+        <image src='{{picurl}}/images/star1.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

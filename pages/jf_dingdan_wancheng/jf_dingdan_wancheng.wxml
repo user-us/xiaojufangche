@@ -1,0 +1,3 @@
+<import src="/pages/jf_dingdanthree/jf_dingdanthree"/>
+<template is="item" data="{{forbar}}"/>
+

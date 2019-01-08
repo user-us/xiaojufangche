@@ -1,0 +1,12 @@
+page{background: #fff;padding: 30rpx;}
+.search_top{width: 660rpx;height: 76rpx;line-height: 76rpx;border: 1px solid #F4F4F4;border-radius: 10rpx;padding-left: 30rpx;display: flex;flex-direction: row;align-items:center}
+.search_top icon{vertical-align: middle;height: 50rpx;margin-right: 20rpx;}
+.hot_search{margin-top: 60rpx;}
+.hot_title{font-size: 24rpx;color: #858994;}
+.hot_cont{margin-top: 20rpx;}
+.hot_cont text{display: inline-block;padding: 15rpx 30rpx;background: #F4F4F4;margin-right: 20rpx;margin-bottom: 20rpx;border-radius: 10rpx;font-size: 24rpx;}
+.history_search{margin-top: 50rpx;position: relative;}
+.del_history{position: absolute;right: 60rpx;width: 26rpx;height: 28rpx;}
+
+
+

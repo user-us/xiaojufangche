@@ -1,0 +1,62 @@
+<!--pages/jifen_dingdan/jifen_dingdan.wxml-->
+<view class='sw_box'>
+<view class="swiper-tab" bindtap='tabFun'>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='0'? 'on' : ''}}" id="tab-hd01" data-id="0"><text bindtap='tabFun' data-id="0">全部</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='1'? 'on' : ''}}" id="tab-hd02" data-id="1"><text bindtap='tabFun' data-id="1">待发货</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='2'? 'on' : ''}}" id="tab-hd03" data-id="2"><text bindtap='tabFun'data-id="2">待收货</text></view>
+  <view class="swiper-tab-list {{tabArr.curHdIndex=='3'? 'on' : ''}}" id="tab-hd04" data-id="3"><text bindtap='tabFun'data-id="3">已完成</text></view>
+</view>
+</view>
+<view class="tab-right"> 
+  <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+    <view class='di_con'>
+      <view class='con_dl'>
+        <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='con_right'>
+          <text class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</text>
+          <text class='numb'>X1</text>
+          <text class='yig'>共1件商品  合计:166积分</text>
+        </view>
+      </view>
+      <view class='yifa'><text class='yileft'>已发货</text><text class='yes'>确认收货</text></view>
+    </view>
+    <view class='di_con'>
+      <view class='con_dl'>
+        <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='con_right'>
+          <text class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</text>
+          <text class='numb'>X1</text>
+          <text class='yig'>共1件商品  合计:166积分</text>
+        </view>
+      </view>
+      <view class='yifa'><text class='dai'>待发货</text></view>
+    </view>
+    <view class='di_con'>
+      <view class='con_dl'>
+        <view class='con_left'><image src='{{picurl}}/images/img1.png'></image></view>
+        <view class='con_right'>
+          <text class='ri_tit'>帐篷户外3-4人全自动加厚防雨 野营露营帐篷</text>
+          <text class='numb'>X1</text>
+          <text class='yig'>共1件商品  合计:166积分</text>
+        </view>
+      </view>
+      <view class='yifa'><text class='yiwan'>已完成</text><text class='shan' bindtap='del'>删除订单</text></view>
+    </view>
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">2
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">3
+  </view>
+  <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">4
+  </view>
+</view>
+<view class='{{show?"jujue_tc":"disno"}}'>
+  <view class='jujue_cont'>
+    <text class='jujue_title'>确认删除</text>
+    <text class='jujues'>确定要删除这个订单吗？</text>
+    <view class='btn_jujue'>
+      <text bindtap='close'>取消</text>
+      <text class='success'>确定</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,33 @@
+<view class='boxs'>
+  <!--顶部轮播图  -->
+  <swiper autoplay="true" interval='2000' bindchange='handerChange'>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner2.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='{{picurl}}/images/tar_banner1.png'></image>
+    </swiper-item>
+  </swiper>
+  <view class='item-num'>{{index}}/3</view>
+</view>
+<view class='play_tit'>
+  <view class='patit'>坐着马车看异国小洋楼</view>
+  <view class='play_address'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+  <view class='play_mon'><text>￥5800/日均</text><text>1500人去过</text></view>
+</view>
+<view class='play_con'>
+  <text>今年九月，我原本的欧洲之行，因为同伴的签证问题，一直被搁置。到了中旬以后，我索性将欧洲计划推迟。陪哥哥嫂子去了巴厘岛拍结婚纪念，然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。于是，我们的第四次塑料姐妹之旅，便是我心心念念未解锁的新加坡啦！然后返程的时候，约了在上海念书时认识的好友小薯去新加坡玩。</text>
+  <image src='{{picurl}}/images/play1.png' style='width:100%; height:380rpx;'></image>
+  <text>从新加坡本岛前往圣淘沙岛非常方便快捷，而且有许多线路可以选择。进岛一共有五种方式，分别是缆车、轮渡、巴士、地铁和出租车，由圣淘沙巴士穿梭于港湾巴士转换站之间。</text>
+  <text>一辆房车
+这里讲讲地铁方式，也是多数人会搭乘的，搭North-EastLine，在Harbour Front MRTStation下车，再依照地铁站里的指示牌前往港湾巴士转换站，乘坐圣淘沙的橘色巴士。
+圣淘沙岛内有免费的捷运，一共有4个站（海滩捷运站，英比奥捷运站，滨海捷运站，圣淘沙捷运站），但是想要乘坐免费的捷运就不要在圣淘沙站出站，因为出站后再进站需要花钱买车票（4S$/人）</text>
+<image src='{{picurl}}/images/play2.png' style='width:100%; height:380rpx;'></image>
+<image src='{{picurl}}/images/play3.png' style='width:100%; height:380rpx; margin-top:20rpx;'></image>
+<text>香港旅游找港岛假日很方便,提前预定有保障,可以找港岛假日霞霞，人很好非常有耐心,安排的旅游很棒！</text>
+</view>
+<view class='play_add'>加入到线路</view>
+

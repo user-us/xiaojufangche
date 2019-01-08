@@ -1,0 +1,12 @@
+/* pages/per_info/per_info.wxss */
+page{background: #fff;}
+.skip{font-size: 30rpx;color: #999;text-align: right;margin-top: 30rpx;padding-right: 30rpx;}
+.info_title{font-size: 36rpx;text-align: center;font-weight: bold;margin-top: 30rpx;}
+.info_avat{text-align: center;margin: 50rpx 0}
+.info_avat image{width:150rpx;height: 150rpx;border-radius: 50%; }
+.wen{float: right;width: 40rpx;height: 40rpx;}
+.write_input{display: flex;flex-direction: row;margin: 60rpx;border-bottom: 1px solid #EEEEEE;padding-bottom: 10rpx;}
+.write_input input{width: 400rpx;margin-left: 20rpx;}
+.write_input label{width: 160rpx;text-align: left;border-right: 1px solid #ddd;height: 30rpx;margin-top: 15rpx;line-height: 30rpx;font-size: 32rpx;}
+.wancheng{  background: linear-gradient(#FFCA31, #FDA823);width: 606rpx;height: 83rpx;line-height: 83rpx;text-align: center;margin: 0 auto;color: #fff;font-size: 32rpx;font-weight: bold}
+.right_jt{width: 12rpx;height: 20rpx;margin-left: 5rpx;margin-top: 15rpx;}

@@ -1,0 +1,60 @@
+@import "/pages/travel_route_details/travel_route_details";
+page{
+  background: #fff;
+}
+.play_tit{
+  padding: 23rpx 26rpx;
+  margin-bottom: 20rpx;
+
+}
+.patit{
+  color: #101010;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.play_address{
+  margin-top: 15rpx;
+  font-size: 24rpx;
+  color: #8A8F9B;
+}
+.play_address image{
+  width: 16rpx;
+  height: 20rpx;
+  margin-right: 9rpx;
+}
+.play_mon{
+    margin-top: 20rpx;
+}
+.play_mon text:first-child{
+  color: #FFA826;
+  font-size: 28rpx;
+}
+.play_mon text:last-child{
+  color: #8A8F9B;
+  font-size: 24rpx;
+  float: right;
+}
+.play_con{
+  padding: 20rpx 26rpx;
+  font-size: 26rpx;
+  margin-bottom: 83rpx;
+}
+.play_con text{
+  width: 100%;
+  display: block;
+  line-height: 48rpx;
+  margin-bottom: 25rpx;
+  text-align:justify;
+}
+.play_add{
+  width:100%;
+  background:linear-gradient(0deg,rgba(255,202,49,1),rgba(253,168,35,1));
+  text-align: center;
+  height: 83rpx;
+  line-height: 83rpx;
+  color: #fff;
+  font-size: 32rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

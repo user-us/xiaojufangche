@@ -1,0 +1,13 @@
+/* pages/management/management.wxss */
+.address_cont{background: #fff;padding: 0 30rpx;margin-bottom: 20rpx;}
+.upda_address image{width:34rpx;height: 34rpx;vertical-align: middle;margin-left: 20rpx;margin-right: 5rpx;}
+.address_box{font-size: 32rpx;color: #1D2124;padding: 20rpx 0;}
+.address_box text:last-child{float: right}
+.address1{font-size: 30rpx;margin-bottom: 10rpx;}
+.address_list{border-bottom: 1px solid #E6E6E6}
+.upda_address{display: flex;flex-direction: row;padding: 30rpx 0;}
+.bianji{width: 40%;font-size: 30rpx;color: #8A8F9B;text-align: right;display: flex;flex-direction: row }
+.add_address{width: 606rpx;height: 83rpx;line-height: 83rpx;color: #fff;  background: linear-gradient(#FFCA31, #FDA823);margin: 0 auto;text-align: center;border-radius: 10rpx;font-weight: bold;font-size: 32rpx;margin-top: 60rpx;}
+
+.radio-group{width: 60%;}
+

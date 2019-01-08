@@ -1,0 +1,47 @@
+
+  <view class='duihuan'>
+    <view class='duileft'>
+      <text class='jifens'>182</text><text class='jfs'>积分</text>
+    </view>
+    <view class='duiright'>兑换商品</view>
+  </view>
+  <view class='ming'>
+    <view class='m_tit'><text>积分明细</text></view>
+    <view class='xiang'>
+      <view class='xiangleft'>
+        <text class='huans'>兑换商品</text>
+        <text class='times'>2018-09-18 08:32:15</text>
+      </view>
+      <view class='xiangright'>
+        -180
+      </view>
+    </view>
+    <view class='xiang'>
+      <view class='xiangleft'>
+        <text class='huans'>兑换商品</text>
+        <text class='times'>2018-09-18 08:32:15</text>
+      </view>
+      <view class='xiangright'>
+        +200
+      </view>
+    </view>
+    <view class='xiang'>
+      <view class='xiangleft'>
+        <text class='huans'>兑换商品</text>
+        <text class='times'>2018-09-18 08:32:15</text>
+      </view>
+      <view class='xiangright'>
+        -180
+      </view>
+    </view>
+    <view class='xiang'>
+      <view class='xiangleft'>
+        <text class='huans'>兑换商品</text>
+        <text class='times'>2018-09-18 08:32:15</text>
+      </view>
+      <view class='xiangright'>
+        -180
+      </view>
+    </view>
+    
+  </view>

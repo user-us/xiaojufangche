@@ -1,0 +1,3 @@
+/* pages/protocol/protocol.wxss */
+page{background: #fff;}
+.protocol_cont{padding: 30rpx;}

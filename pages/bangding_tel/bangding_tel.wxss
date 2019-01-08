@@ -1,0 +1,17 @@
+/* pages/bangding_tel/bangding_tel.wxss */
+page{background: #fff;}
+.title_bd{font-size: 36rpx;color:#101010;font-weight: bold;text-align: center;padding-top: 60rpx;border-top: 1px solid #DDDDDD; margin-bottom: 30rpx}
+.bd_input1 image{width:20rpx;height: 32rpx;margin-right: 8rpx;margin-top: 8rpx; }
+.bd_input2 image{width:28rpx;height: 30rpx; margin-top: 10rpx;}
+.bd_input1,.bd_input2{border-bottom: 1px solid #EEEEEE;width: 90%;margin:40rpx auto;padding-bottom: 10rpx; display: flex;} 
+.bd_input1 text,.bd_input2 text{display: inline-block;width: 120rpx;text-align: center;font-size: 32rpx;border-right: 1px solid #ddd;height: 25rpx;line-height: 25rpx;margin-top: 10rpx;padding-right: 20rpx;}
+.bd_input1 input,.bd_input2 input{height: 30rpx;line-height: 30rpx;padding-left: 20rpx;}
+.bd_input2 button{width:170rpx;height: 50rpx;background: #FFA826;color: #fff;font-size: 24rpx;border-radius: 4rpx;line-height: 50rpx; }
+
+
+.wancheng{width: 606rpx;height: 83rpx;line-height: 83rpx;margin:30rpx auto; background: linear-gradient(#FFCA31, #FDA823);border-radius: 10rpx;text-align: center;color: #fff;font-weight: bold;font-size: 32rpx;}
+.agree_xy{position: fixed;bottom: 55rpx;width: 100%;text-align: center;font-size: 26rpx;}
+.agree_xy text{color: #FFA826}
+
+
+

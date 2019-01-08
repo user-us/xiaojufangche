@@ -1,0 +1,10 @@
+<view class='peixun_box'>
+  <view class='choose_school'>请选择取车营地</view>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}">
+      <radio value="{{item.name}}" checked="{{item.checked}}" color='#FFA826' /><text class="{{item.value == xuanzhong?'radio_active':''}}">{{item.value}}</text>
+      <view class='school_address'>广西梧州市自驾车旅游营地详细地址</view>
+    </label>
+  </radio-group>
+</view>
+<view class='submit' bindtap='gosubmit'>提交</view>

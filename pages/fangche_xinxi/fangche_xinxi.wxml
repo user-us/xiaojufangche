@@ -1,0 +1,76 @@
+<!--pages/fangche_chuxing/fangche_chuxing.wxml-->
+<view class='chuxing_time'>
+  <view class='time_top' style='background:url("{{picurl}}/images/time_bg.png") no-repeat;background-size:100%;'>
+    <image src='{{picurl}}/images/time2.png' class='top_img'></image>
+  </view>
+  <view class='time_cont'>
+    <view class='xinxi_names'>
+      <view class='xinxi_na1'>姓名</view>
+      <view class='xinxi_nacon'>杰西卡</view>
+    </view>
+    <view class='xinxi_names'>
+      <view class='xinxi_na1'>身份证号</view>
+      <view class='xinxi_nacon'>120147****4857</view>
+    </view>
+    <view class='go_times'>保险类型</view>  
+    <view class='insurance'>1000万人身意外险<image class='book_right' src='{{picurl}}/images/book_right.png'></image></view>
+    <view class='go_times'>车型选择<image class='book_right booktop' src='{{picurl}}/images/book_right.png'></image></view>
+    <view class='addfu' style='display:none'><image src='{{picurl}}/images/addfu.png'></image>添加车型</view>
+    <view class='car_dls' style='display:block'>
+      <view class='car_dts'><image src='{{picurl}}/images/img1.png'></image></view>
+      <view class='car_dds'>
+        <view class='car_dtit'>2018款 格林卡诺 C2款</view>
+        <view class='car_dmon'><text>￥1800/日均</text><text class='car_numb'>出租1324次</text></view>
+      </view>
+    </view>
+    <view class='go_times'>额外物品<image class='book_right booktop' src='{{picurl}}/images/book_right.png'></image></view>
+    <view class='addfu' style='display:none'><image src='{{picurl}}/images/addfu.png'></image>添加额外物品</view>
+    <!--额外物品  -->
+    <view style='display:block'>
+      <view class='book_outdoor'>
+        <text class='yizi'>户外椅子</text><text class='yizimon'>{{yizis}}元</text>
+        <view class="stepper">
+              <!-- 减号 -->
+              <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+              <!-- 数值 -->
+              <input type="number" bindchange="bindManual" value="{{num}}" />
+              <!-- 加号 -->
+              <text class="normal" bindtap="bindPlus">+</text>
+          </view>
+      </view>
+      <view class='book_outdoor' style='margin-top:20rpx; margin-bottom:30rpx;'>
+        <text class='yizi'>户外帐篷</text><text class='yizimon'>{{zhangpengs}}元</text>
+        <view class="stepper">
+              <!-- 减号 -->
+              <text class="{{minusStatus1}}" bindtap="bindMinus1">-</text>
+              <!-- 数值 -->
+              <input type="number" bindchange="bindManual1" value="{{nums}}" />
+              <!-- 加号 -->
+              <text class="normal" bindtap="bindPlus1">+</text>
+          </view>
+      </view>
+      <view class='addfu'><image src='{{picurl}}/images/addfu.png'></image>继续添加</view>
+      <view class='booking_all'>
+        <view class='book_allvi'><text>此款车辆每日单价为</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>基础服务费</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>经过计算您的用车时长为</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>保险费用</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>额外物品</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>房车押金</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>违章押金</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>其他费用</text><text>￥5800</text></view>
+        <view class='book_allvi'><text>合计金额</text><text>￥11100</text></view>
+      </view>
+    </view>
+    <!--额外物品  -->
+
+  </view>
+  <view class='wancheng' bindtap='tishi'>下一步</view>
+</view>
+
+<view wx:if="{{tishi == true}}" class='yajin_tishi'>
+  <view class='tishi_Cont'>
+    <view class='tishi_neirong'><text>您当前还未通过驾驶认证，\n请认证通过后再进行下单!</text></view>
+    <view class='tishi_btn' bindtap='closetishi'>知道了</view>
+  </view>
+</view>

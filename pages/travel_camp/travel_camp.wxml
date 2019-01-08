@@ -1,0 +1,59 @@
+<view class='travel_tit'>
+    <view class='tit_co1'>区域<image src='{{picurl}}/images/xiala.png'></image></view>
+    <view class='tit_co2'>星级<view class='tra_pays' style='width:13rpx; height:16rpx; line-height:6rpx;'><image src='{{picurl}}/images/xiala.png'></image><image src='{{picurl}}/images/xiala2.png'></image></view></view>
+    <view>有营位</view>
+</view>
+<view class='camp_con'>
+  <view class='camp_dl'>
+    <view class='camp_dt'>
+      <image src='{{picurl}}/images/img1.png'></image>
+      <view class='have_camp'>有营位</view>
+    </view>
+    <view class='camp_dd1'>
+      <text>广西梧州市自驾车旅游营地</text>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+    </view>
+    <view class='camp_dd2'>
+      <image src='{{picurl}}/images/dizhi.png'></image>
+      <text>北京</text>158人去过
+    </view>
+  </view>
+  <view class='camp_dl'>
+    <view class='camp_dt'>
+      <image src='{{picurl}}/images/img1.png'></image>
+      <view class='have_camp1'>有营位</view>
+    </view>
+    <view class='camp_dd1'>
+      <text>广西梧州市自驾车旅游营地</text>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+    </view>
+    <view class='camp_dd2'>
+      <image src='{{picurl}}/images/dizhi.png'></image>
+      <text>北京</text>158人去过
+    </view>
+  </view>
+  <view class='camp_dl'>
+    <view class='camp_dt'>
+      <image src='{{picurl}}/images/img1.png'></image>
+      <view class='have_camp'>有营位</view>
+    </view>
+    <view class='camp_dd1'>
+      <text>广西梧州市自驾车旅游营地</text>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+      <image src='{{picurl}}/images/star1.png'></image>
+    </view>
+    <view class='camp_dd2'>
+      <image src='{{picurl}}/images/dizhi.png'></image>
+      <text>北京</text>158人去过
+    </view>
+  </view>
+
+</view>

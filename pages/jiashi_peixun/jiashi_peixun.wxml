@@ -1,0 +1,16 @@
+<view class='peixun_box'>
+  <view class='choose_school'>请选择培训学校</view>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}">
+      <radio value="{{item.name}}" checked="{{item.checked}}" color='#FFA826' /><text class="{{item.value == xuanzhong?'radio_active':''}}">{{item.value}}</text>
+      <view class='school_address'>北京北京市丰台区北京市丰台区1101室</view>
+    </label>
+  </radio-group>
+  <view class='choose_school'>请选择培训时间</view>
+  <view class="section">
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+      <view class="picker">{{date}} <image src='/images/jiantou1.png' class='right_jt'></image></view>
+    </picker>
+  </view>
+</view>
+<view class='submit' bindtap='gosubmit'>提交</view>

@@ -1,0 +1,5 @@
+<view class='yijian_box'>
+  <view class='help_cont'><textarea placeholder='请输入问题以便我们提供更好的帮助' placeholder-class='text_write'></textarea></view>
+  <view class='your_tel'><input placeholder='请输入您的电话'></input></view>
+  <view class='save_btn'><button>提交</button></view>
+</view>

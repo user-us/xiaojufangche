@@ -1,0 +1,65 @@
+<!--pages/fangche_chuxing/fangche_chuxing.wxml-->
+<view class='chuxing_time'>
+  <view class='time_top' style='background:url("{{picurl}}/images/time_bg.png") no-repeat;background-size:100%;'>
+    <image src='{{picurl}}/images/time3.png' class='top_img'></image>
+  </view>
+  <view class='time_cont'>
+    <view class='go_times'>旅行线路<image class='book_right' src='{{picurl}}/images/book_right.png'></image></view>
+  <view class='car_dls'>
+    <view class='car_dts'><image src='{{picurl}}/images/img1.png'></image></view>
+    <view class='car_dds'>
+      <view class='car_dtit'>西宁+青海湖+拉萨+日喀则+羊卓雍措+纳木措8日7晚</view>
+      <view class='car_dmon'>￥1800/日均</view>
+    </view>
+  </view>
+    <view class='cho_ling'>是否需要领队<checkbox color='#fff'/></view>
+    <view class='go_times'>途径营地 <image class='book_right' src='{{picurl}}/images/book_right.png'></image></view>
+    <view>
+      <view class='tutit'>广西梧州市自驾车旅游营地</view>
+      <view class='tuadd'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+      <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+      <view>
+        <view class='ewais'>额外项目</view>
+        <view class='babukui'><text>烧烤</text><text>￥180</text></view>
+        <view class='babukui'><text>蹦极</text><text>￥180</text></view>
+      </view>
+    </view>
+    <view class='addfu' style='display:none'><image src='{{picurl}}/images/addfu.png'></image>添加附加项目</view>
+    <view class='addfu' style='display:block'><image src='{{picurl}}/images/addfu.png'></image>继续添加</view>
+    <view>
+      <view class='tutit'>广西梧州市自驾车旅游营地</view>
+      <view class='tuadd'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+      <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+    </view>
+    <view class='play_xiangmu'>游玩项目<image src='{{picurl}}/images/book_right.png'></image></view>
+    <view>
+      <view class='tutit'>广西梧州市自驾车旅游营地</view>
+      <view class='tuadd'><image src='{{picurl}}/images/dizhi.png'></image>北京</view>
+      <view class='tupay'><text>￥1800/日均</text><text>158人去过</text></view>
+    </view>
+    <view class='addfu'><image src='{{picurl}}/images/addfu.png'></image>继续添加</view>
+    <view class='addfu' bindtap='addplay' style='display:none'><image src='{{picurl}}/images/addfu.png'></image>添加游玩项目</view>
+    
+    <view class='book_additional'>
+      
+      
+      
+    </view>
+    <view class='booking_all'>
+      <view class='book_allvi'><text>旅游线路</text><text>￥5800</text></view>
+      <view class='book_allvi'><text>途径营地</text><text>￥5800</text></view>
+      <view class='book_allvi'><text>游玩项目</text><text>￥5800</text></view>
+      <view class='book_allvi'><text>额外项目</text><text>￥5800</text></view>
+      <view class='book_allvi'><text>合计金额</text><text>￥5800</text></view>
+    </view>
+
+  </view>
+  <view class='wancheng' bindtap='tishi'>下一步</view>
+</view>
+
+<view wx:if="{{tishi == true}}" class='yajin_tishi'>
+  <view class='tishi_Cont'>
+    <view class='tishi_neirong'><text>您当前还未通过驾驶认证，\n请认证通过后再进行下单!</text></view>
+    <view class='tishi_btn' bindtap='closetishi'>知道了</view>
+  </view>
+</view>

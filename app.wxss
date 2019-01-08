@@ -1,0 +1,94 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+  background: #EAEBED;
+  font-size: 26rpx;
+}
+/* 订单详情3个页面 */
+.con_dl{
+  margin:0 26rpx;
+  overflow: hidden;
+  border-bottom: 1px solid #EFEFEF;
+  padding-bottom: 30rpx;
+}
+.con_left{
+  width:257rpx;
+  height: 176rpx;
+  padding-top: 40rpx;
+  margin-right: 27rpx;
+  float: left;
+}
+.con_left image{
+  width:257rpx;
+  height: 176rpx;
+  border-radius: 10rpx;
+}
+.con_right{
+  width:412rpx;
+  float: left;
+  padding-top: 40rpx;
+}
+.con_right text{
+  display: block;
+}
+.ri_tit{
+  font-size: 30rpx;
+  line-height: 45rpx;
+  color: #000000;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-align:justify;
+  text-justify:inter-ideograph;
+}
+/* 购物车加减 */
+.stepper {
+  display: inline-block;
+	width: 166rpx;
+	height: 51rpx;
+	/*给主容器设一个边框*/
+	border: 1px solid #E6E6E6;
+	border-radius: 5rpx;
+	margin:0 auto;
+  margin-right: 125rpx;
+}
+ 
+/*加号和减号*/
+.stepper text {
+	width: 54rpx;
+	line-height: 51rpx;
+	text-align: center;
+	float: left;
+}
+ 
+/*数值*/
+.stepper input {
+	width: 54rpx;
+	height: 51rpx;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30rpx;
+	/*给中间的input设置左右边框即可*/
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+}
+ 
+/*普通样式*/
+.stepper .normal{
+	color: black;
+}
+ 
+/*禁用样式*/
+.stepper .disabled{
+	color: #ccc;
+}

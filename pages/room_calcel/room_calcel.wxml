@@ -1,0 +1,12 @@
+<view class='call_con'>
+  <view class='call_res'>请选择呼叫救援原因</view>
+
+    <checkbox-group name="checkbox" class="check">
+		<view bindtap='clicks' wx:for="{{checks}}" wx:key="{{checks}}" wx:for-index="index" data-index="{{index}}" class='call_vie {{item.checked?"is_checked":""}}'>
+			<checkbox value="{{item.name}}" data-val="{{item.name}}" checked='{{item.checked}}' color='#fff'/> {{item.name}}
+		</view>
+	</checkbox-group>
+</view>
+<view class='resra'><textarea placeholder='其他原因'></textarea></view>
+
+<button bindtap='subs'>提交</button>
